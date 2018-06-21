@@ -27,9 +27,10 @@ include_once("page.php");
                     <li><a href="http://www.gameai.eu/" target="_blank">Game AI</a></li>
                     <li><a href="http://gdev.blog.hu/" target="_blank">Game Development Blog</a></li>
                     <li><a href="http://games.lidercfeny.hu/" target="_blank">Lidércfény Games</a></li>
-                    <li><a href="http://prog.lidercfeny.hu/" target="_blank">Programozási oldal</a></li>
+                    <li><a href="http://braincluster.eu/" target="_blank">Braincluster.eu - Programozási oldal</a></li>
                     <li><a href="http://www.zombiapokalipszis.hu/" target="_blank">Zombi-apokalipszis Simagöröngyösön</a></li>
                     <li><a href="http://teheneszet.uw.hu/" target="_blank">Tehenészet - egy telep története</a></li>
+                    <li><a href="http://retrocomputer.eu/" target="_blank">A retró számítástechnika oldala</a></li>
                 </ul>
                 
             </div>

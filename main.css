@@ -232,3 +232,8 @@ div#impresszum a
     color: #ffffff;
     text-decoration: none;
 }
+
+p.impresszum
+{
+    line-height: 200%;
+}

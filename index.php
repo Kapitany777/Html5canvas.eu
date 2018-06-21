@@ -20,7 +20,7 @@ include_once("page.php");
         <div id="content">
             <div class="text" style="min-height: 250px;">
                 
-                <h2>HTML5 Canvas</h2>
+                <h2>HTML5 Canvas és a JavaScript</h2>
                 
                 <img src="images/HTML5_Logo_128.png" alt="HTML5" style="float: left; margin-right: 20px;">
                 
@@ -31,7 +31,11 @@ include_once("page.php");
                 </p>
                 
                 <p>
-                    Fejlesztéseim eredményét a <a href="demok.php">Demók</a> oldalon lehet megtalálni.
+                    A <a href="https://hu.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript programozási nyelv</a> egy objektumalapú, prototípus alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+                </p>
+                
+                <p>
+                    A JavaScriptet és a HTML5 Canvast használó fejlesztéseim eredményét a <a href="demok.php">Demók</a> oldalon lehet megtalálni.
                 </p>
             </div>
             

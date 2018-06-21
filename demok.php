@@ -19,7 +19,7 @@ include_once("page.php");
         
         <div id="content">
             <div class="text">
-                Ezen az oldalon az általunk készített, HTML5 Canvas-t használó programokat mutatjuk be.
+                Ezen az oldalon az általunk készített, JavaScriptet és HTML5 Canvas-t használó programokat mutatjuk be.
             </div>
             
             <div class="text">

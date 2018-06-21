@@ -80,6 +80,28 @@ include_once("page.php");
                 </div>
             </div>
             
+            
+            <div class="text" style="min-height: 530px;">
+                
+                <h2>Tanuljuk meg a JavaScript használatát 24 óra alatt</h2>
+
+                <div>
+                    <img src="images/books/javascript_24.jpg" alt="bookcover" style="float: left;">
+                
+                    <div class="bookdesc">
+                        <p>
+                            Michael Moncur: Tanuljuk meg a JavaScript használatát 24 óra alatt
+                        </p>
+                        
+                        <p>
+                            Egy jó magyar nyelvű bevezető könyv a JavaScript programozásba.
+                            Egy kicsit már régi (2006-os kiadású), de ettől függetlenül kezdetnek megfelel.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            
         </div>
         
         <?php PageFooter(); ?>

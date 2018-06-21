@@ -37,7 +37,7 @@ function PageFooter()
 {
     print("<div id=\"footer\">\n");
     print("    <div id=\"copyright\">\n");
-    print("        <a href=\"http://prog.lidercfeny.hu/\" target=\"_blank\">&copy; 2001-2018 Tumuslak Vorvahes Team</a>\n");
+    print("        <a href=\"http://braincluster.eu/\" target=\"_blank\">&copy; 2001-2018 Brain Cluster</a>\n");
     print("    </div>\n");
             
     print("    <div id=\"impresszum\">\n");
