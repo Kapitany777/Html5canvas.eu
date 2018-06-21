@@ -118,7 +118,7 @@ include_once("page.php");
                 <h3>Történetek az akkumulátortemetőből</h3>
                 
                 <p>
-                    Egy madlib program horrorfilm-forgatókönyv generálására.
+                    Egy madlib program horrorfilm forgatókönyvek generálására.
                 </p>
                 
                 <p>
