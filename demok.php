@@ -86,7 +86,7 @@ include_once("page.php");
             
             
             <div class="text">
-                <h2 class="democategory">Neoprimitivizmus</h2>
+                <h2 class="democategory">Neoprimitivizmus, madlib</h2>
             </div>
             
             <div class="demo">
@@ -111,6 +111,18 @@ include_once("page.php");
                 
                 <p>
                     <a href="demo_bozotos.php">Itt lehet áttörni a bozótoson</a>
+                </p>
+            </div>
+            
+            <div class="demo">
+                <h3>Történetek az akkumulátortemetőből</h3>
+                
+                <p>
+                    Egy madlib program horrorfilm-forgatókönyv generálására.
+                </p>
+                
+                <p>
+                    <a href="demo_akkumulatortemeto.php">Lássuk a forgatókönyvet!</a>
                 </p>
             </div>
         </div>

@@ -237,3 +237,9 @@ p.impresszum
 {
     line-height: 200%;
 }
+
+p.center
+{
+    text-align: center;
+}
+
