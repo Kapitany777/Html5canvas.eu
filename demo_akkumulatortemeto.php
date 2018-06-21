@@ -23,9 +23,9 @@ include_once("page.php");
     <body>
         <?php 
         PageHeader();
-        PageH1("Történetek az akkumulátortemetőből");
+        PageH1("A horror story");
         ?>
-        
+                
         <div id="content">
             <div class="text">
                 <h2 id="tortenetCime">A történet címe</h2>
@@ -33,7 +33,7 @@ include_once("page.php");
                 <p id="tortenetSzovege">A történet szövege</p>
                 
                 <p class="center">
-                    <button onclick="TortenetGeneralasa();">Új történet generálása</button>
+                    <button class="generate" onclick="TortenetGeneralasa();">Új történet generálása</button>
                 </p>
                 
                 <?php Back(); ?>
