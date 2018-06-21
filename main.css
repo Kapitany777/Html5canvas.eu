@@ -1,0 +1,234 @@
+body
+{
+    margin: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+}
+
+a
+{
+    color: #000000;
+}
+
+div#header
+{
+    width: 100%;
+    height: 100px;
+    background-color: #0092bf;
+    color: #ffffff;
+    margin: 0px;
+}
+
+div#mainLogo
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    font-size: 32px;
+}
+
+div#mainTitle
+{
+    margin-top: 35px;
+    margin-left: 20px;
+    float: left;
+    font-size: 32px;
+}
+
+div#mainTitle a
+{
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+div#mainMenu
+{
+    margin-top: 25px;
+    margin-right: 40px;
+    float: right;
+}
+
+div#mainMenu ul
+{
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+
+div#mainMenu li
+{
+    display: inline;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+div#mainMenu li a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div#mainMenu li a:hover
+{
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+div#pageHeader
+{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    left: 0px;
+    background-color: #10a2cf;
+    color: #ffffff;
+}
+
+div#pageHeader h1
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#canvasDiv
+{
+    margin: 20px auto 55px auto;
+    padding: 0px;
+    width: 80%;
+    text-align: center;
+}
+
+div#content
+{
+    margin: 20px auto 55px auto;
+    padding: 0px;
+    width: 80%;
+}
+
+div#content div.text
+{
+    margin: 30px 0px;
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    clear: both;
+}
+
+div#content div.text a
+{
+    color: #000000;
+}
+
+div#content div.demo
+{
+    float: left;
+    margin: 0px 20px 20px 0px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    background-color: #e54b26;
+    color: #ffffff;
+}
+
+div#content div.demo h2
+{
+    margin-top: 0px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+div#content div.demo h3
+{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div#content div.demo p
+{
+    font-size: 14px;
+}
+
+div#content div.demo a
+{
+    color: #ffffff;
+}
+
+div#content h2
+{
+    color: #0092bf;
+    font-size: 32px;
+}
+
+div#content h2.democategory
+{
+    color: #0092bf;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#content h3
+{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+div#content div.bookdesc
+{
+    margin: 0px 20px 0px 320px;
+}
+
+div#content div.bookdesc a
+{
+    color: #000000;
+    font-size: 14px;
+}
+
+div#content div.bookdesc blockquote
+{
+    font-style: italic;
+}
+
+div#content ul.links
+{
+    line-height: 160%;
+}
+
+div#footer
+{
+    width: 100%;
+    height: 35px;
+    background-color: #0092bf;
+    margin: 0px;
+    clear: both;
+}
+
+div#copyright
+{
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    font-size: 12px;
+}
+
+div#copyright a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div#impresszum
+{
+    margin-top: 10px;
+    margin-right: 40px;
+    float: right;
+    font-size: 12px;
+}
+
+div#impresszum a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
