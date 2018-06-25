@@ -125,6 +125,18 @@ include_once("page.php");
                     <a href="demo_akkumulatortemeto.php">Lássuk a forgatókönyvet!</a>
                 </p>
             </div>
+            
+            <div class="demo">
+                <h3>Városnév-generátor</h3>
+                
+                <p>
+                    Egy madlib program magyar településnevek generálására.
+                </p>
+                
+                <p>
+                    <a href="demo_varosnev.php">Városnevek generálása...</a>
+                </p>
+            </div>
         </div>
         
         <?php PageFooter(); ?>
