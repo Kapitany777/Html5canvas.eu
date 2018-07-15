@@ -31,24 +31,25 @@ var EjszakaJelzok =
   "viharos" ];
 
 var Szornyek =
-[ "alienek",
-  "bérgyilkosok", "bogarak",
-  "csápok", "csontvázak", "csótányok",
-  "denevérek",
+[ "acélgólemek", "alienek", "androidok",
+  "barbárok", "bérgyilkosok", "bogarak", "borzalmak",
+  "csápok", "csontvázak", "csótányok", "csupakabrák",
+  "denevérek", "droidok", "drónok",
   "élőholtak",
-  "farkasok",
-  "gengszterek", "gerillák", "gibbonok", "gorillák",
-  "halottak", "hangyák", "hóhérok", "hullák",
+  "farkasemberek", "farkasok",
+  "gengszterek", "gerillák", "gibbonok", "goblinok", "gólemek", "gorillák",
+  "halottak", "hangyák", "harci robotok", "hóhérok", "hullák",
   "jetik",
-  "káoszmajmok", "kísértetek", "klónok", "kutyák", "küklopszok",
+  "káoszmajmok", "kardhalak", "kísértetek", "kis szürkék", "klónok", "kultisták", "kutyák", "küklopszok",
   "láphullák", "lidércek",
-  "macskák", "majmok", "medvék", "múmiák", "mutánsok", "mutáns zombik",
+  "macskák", "majmok", "marslakók", "medvék", "molyemberek", "múmiák", "mutánsok", "mutáns zombik",
   "nindzsák",
-  "orángutánok", "óriáspókok",
+  "okkultisták", "orángutánok", "óriások", "óriáspókok", "orkok",
   "patkányok", "pókok",
-  "rémhírterjesztők", "rohamosztagosok",
-  "szamurájok", "szellemek", "szörnyetegek",
-  "terminátorok",
+  "robotok", "rémhírterjesztők", "rohamosztagosok",
+  "szamurájok", "szellemek", "szeparatisták", "szörnyetegek",
+  "terminátorok", "terroristák", "törpék", "trollok",
+  "ufonauták",
   "vámpírok", "vérbírók", "vérfarkasok", "vérmedvék",
   "zombik", "zugalakok" ];
 
@@ -91,43 +92,49 @@ var Helyekben =
   "lápvidéken",
   "mocsárban", "múzeumban",
   "nekropoliszban",
+  "piramisban",
   "sírban",
   "temetőben", "templomban", "tömegsírban",
   "utcán",
   "városban" ];
 
 var Rejtekhelyekben =
-[ "akkumulátortemetőben", "azbesztpalagyárban",
-  "bányában", "barlangban",
+[ "akkumulátortemetőben", "atombunkerben", "azbesztpalagyárban",
+  "bányában", "barlangban", "bunkerben",
   "csatornában",
   "dögtelepen",
-  "elmegyógyintézetben",
+  "elmegyógyintézetben", "erdőben", "erőműben",
+  "faházban", "földalatti bázison",
+  "gyárban",
   "házban", "hegyen",
   "katakombában", "kriptában", "kútban",
   "mocsárban", "múzeumban",
+  "piramisban",
+  "raktárban",
   "sírban",
-  "tehenészetben", "temetőben", "templomban" ];
+  "tehenészetben", "temetőben", "templomban", "templomromban" ];
 
 var Jelzok =
 [ "agyhalott", "agyrohasztó", "a múlt ködébe vesző", "anarchista",
-  "barlangi", "borzalmas", "bosszúálló", "brutális", "büdös", "bűzlő",
+  "barbár", "barlangi", "borzalmas", "bosszúálló", "brutális", "büdös", "bűzlő",
   "cigarettás", "ciklopi",
   "dögletes", "dögsanyarta",
   "elátkozott", "elmebeteg", "eszelős", "eszement",
   "fékevesztett", "féllábú",
-  "gépesített", "gigantikus", "gonosz", "gyanús",
-  "habzó szájú", "halott", "hatalmas", "hideg",
+  "génmanipulált", "génmódosított", "gépesített", "gigantikus", "gonosz",
+  "gyanús",
+  "habzó szájú", "halott", "hatalmas", "hegyi", "hideg",
   "idegen", "indián",
-  "kidülledt szemű", "ködös",
-  "láncfűrészes", "lápi", "lázadó", "lidérces", "lopakodó",
-  "megnevezhetetlen", "mélyűri", "mocsári", "mutáns",
+  "kidülledt szemű", "klónozott", "ködös",
+  "láncfűrészes", "lápi", "lázadó", "lebegő", "lidérces", "lopakodó",
+  "más dimenzióból érkezett", "megnevezhetetlen", "mélyűri", "mocsári", "mutáns",
   "névtelen", "nukleáris", "nyálkás",
   "osonó", "őrjöngő", "őrült", "ősi",
-  "páncélozott", "pöhös", "pusztító",
+  "páncélozott", "pöhös", "pszichopata", "pusztító",
   "radioaktív", "rángatózó", "rémséges", "rettenetes", "rituális", "rothadó",
   "síri", "sötét", "sugárfertőzött", "sugárzó",
   "szörnyű", "szürke",
-  "tébolyult", "temetői", "tomboló",
+  "tébolyult", "temetői", "tomboló", "tömegpusztító",
   "vegyi", "végzetes", "vén", "véres", "vérgonyasztó", "vérivó", "vérszívó", "veszett" ];
 
 var UndoritoAnyagokat =
@@ -153,46 +160,51 @@ var Szinek =
   "lila",
   "piros",
   "sárga",
+  "szürke",
   "zöld" ];
 
 var Foglalkozasok =
-[ "antikvárius", "antropológus", "autószerelő",
-  "bányász", "belső ellenőr", "bérgyilkos", "bicikliőr", "biztonsági őr", "bolti eladó", "bombaszakértő",
+[ "agysebész", "antikvárius", "antropológus", "autószerelő",
+  "bányász", "barbár", "belső ellenőr", "bérgyilkos", "bérkommentelő", "bicikliőr", "biztonsági őr", "blogger", "bölcsész", "bolti eladó", "bombaszakértő", "borbély",
+  "CIA-ügynök",
   "csatornatisztító",
   "diszpécser",
   "éjjeliőr", "elemző", "erdész",
-  "farmer", "FBI-ügynök",
+  "farmer", "favágó", "FBI-ügynök", "feltaláló", "fogadós",
   "géppuskás", "gombaszakértő", "gyepmester",
-  "hajóskapitány", "hegesztő", "hóhér", "hurrikánkineziológus",
-  "író",
-  "kazánfűtő", "kazánkovács", "kém", "kertész", "kocsmáros", "kommandós", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körzeti megbízott", "körzeti orvos",
+  "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegesztő", "hóhér", "hurrikánkineziológus",
+  "idegsebész", "informatikus", "író",
+  "kazánfűtő", "kazánkovács", "kém", "kertész", "kidobóember", "kocsmáros", "kommandós", "konspiratológus",
+  "kántor", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körzeti megbízott", "körzeti orvos",
   "légvédelmi tüzér", "lelkész", "levéltáros", "logopédus",
-  "magánnyomozó", "mérnök", "meteorológus", "motoros hobó", "muzeológus",
-  "nindzsa",
-  "nyugalmazott ezredes", "nyugalmazott őrnagy",
-  "őstermelő",
-  "páncélgránátos", "pap", "parkőr", "patikus", "pék", "pénztáros", "politológus", "portás", "postás", "programozó", "pszichológus",
-  "radarkezelő", "régész", "rendőr", "rohamosztagos",
-  "sírásó",
-  "szabotőr", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociológus",
-  "tanár", "targoncás", "tarlófelelős", "téemkás", "tehenész", "traktoros", "tüzér", "tűzszerész",
-  "újságíró", "ügynök", "ügyvéd", "űrhajós", "utcaseprő", "üzemmérnök",
-  "vasutas", "vérbíró",
+  "maffiózó", "magánnyomozó", "mesterlövész", "mérnök", "meteorológus", "motoros hobó", "muzeológus",
+  "nanotechnológus", "nindzsa",
+  "nyomozó", "nyugalmazott admirális", "nyugalmazott ezredes", "nyugalmazott őrnagy", "nyugalmazott tengernagy",
+  "okkultista", "operátor", "orkológus", "őstermelő", "összeesküvő",
+  "páncélgránátos", "pap", "parkőr", "patikus", "pék", "pénztáros", "politológus", "portás", "postás", "programozó", "pszichológus", "püspök",
+  "radarkezelő", "régész", "rendőr", "rendszergazda", "rohamosztagos", "röntgenorvos",
+  "sekrestyés", "sírásó",
+  "szabotőr", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociológus", "szonárkezelő",
+  "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "tengeralattjárós", "térképész", "titkosügynök", "traktoros", "tüzér", "tűzszerész",
+  "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "utcaseprő", "üzemmérnök",
+  "vasutas", "vérbíró", "világítótorony-őr",
   "zugfirkász", "zugügyvéd" ];
 
 var MilyenTelepulesek =
-[ "álmos",
-  "elátkozott", "elhagyatott",
+[ "álmos", "átokverte",
+  "elátkozott", "elfeledett", "elhagyatott", "ezer éves",
   "gyéren lakott",
   "isten háta mögötti",
-  "kihalt", "ködös",
-  "szmogos",
+  "kihalt", "kis", "ködös",
+  "mocsaras",
+  "szeles", "szmogos",
   "vidéki" ];
 
 var Telepulesek =
 [ "faluban", "falucskában",
   "kisvárosban", "koszfészekben", "községben",
   "lakótelepen", "lápvidéken",
+  "nagyközségben",
   "tanyaközpontban",
   "városkában" ];
 
@@ -205,32 +217,44 @@ var Jarmuvek =
   "Mercedesével", "MTZ-jével",
   "Opeljével",
   "Polskijával",
-  "Rigájával", "rozsdaboglyájával",
+  "Rigájával",
   "Skodájával",
   "talicskájával", "Trabantjával", "tragacsával", "triciklijével",
-  "Verhovinájával",
+  "Verhovinájával", "Volvójával",
   "Wartburgjával",
   "Zastavájával", "Zetorjával" ];
 
 var EroszakSzervezetek =
 [ "árnyékkormány",
-  "Bilderberg-csoport",
+  "Bilderberg-csoport", "Birodalom",
   "CIA", "Császári Gárda",
   "Delta Force",
   "ejtőernyős hadosztály", "elhárítás",
   "FBI", "FEMA",
   "haditengerészet", "hadsereg", "hírszerzés",
   "Illuminátusok",
-  "járványügyi hivatal",
+  "jakobinusok", "járványügyi hivatal",
   "légierő", "lovasrendőrség", "Luftwaffe",
   "milícia",
   "Navy Seals", "Nemzeti Gárda",
   "Parti Őrség", "postafelügyelet",
   "rendőrség",
-  "seriff", "SWAT", "Szindikátus",
-  "tengerészgyalogság", "titkosszolgálat",
+  "seriff", "SWAT", "Szindikátus", "Szpecnaz",
+  "templomosok", "tengerészgyalogság", "titkosszolgálat",
   "űrgyalogság",
   "Wehrmacht" ];
+
+var EroszakSzervezetTagjai =
+[ "bérgyilkosai",
+  "emberei",
+  "harcosai",
+  "katonái", "kommandósai",
+  "mesterlövészei",
+  "pribékjei",
+  "rohamosztagosai",
+  "szuperkatonái",
+  "ügynökei",
+  "verőemberei" ];
 
 var EroszakosCselekedetek =
 [ "a mocsárba lökik",
@@ -247,16 +271,18 @@ var EroszakosCselekedetek =
 
 var Termekeket =
 [ "akkumulátorokat", "azbesztpalát",
-  "biológiai fegyvereket",
+  "baktériumokat", "biológiai fegyvereket",
   "élelmiszerszínezéket",
-  "génmódosított kukoricát",
+  "génmódosított kukoricát", "génmódosított szóját",
   "gyógyszereket", "gyomirtókat",
-  "ideggázokat",
-  "kullancsirtószert",
+  "harci gázokat",
+  "ideggázokat", "izotópokat",
+  "kemtrélt", "klónokat", "kristályokat", "kullancsirtószert",
+  "mutáns baktériumokat",
   "növényvédőszereket", "nyálas sorozatokat",
   "plutóniumot",
-  "természetazonos aromát", "traktorokat",
-  "vegyifegyvereket", "vírusokat" ];
+  "táplálékkiegészítőket", "természetazonos aromát", "traktorokat",
+  "vegyifegyvereket", "vérnyomáscsökkentőket", "vírusokat" ];
 
 var TamadasModok =
 [ "bugyborékoló hörgéssel",
@@ -273,19 +299,20 @@ var TamadasModok =
 var Fegyverekkel =
 [ "45-ös Magnummal",
   "ásóval",
-  "baltával", "baseballütővel", "buzogánnyal",
-  "csavarhúzóval", "csőkulccsal",
+  "baltával", "baseballütővel", "Berettával", "bottal", "bunkósbottal", "bűvös gránáttal", "buzogánnyal",
+  "csatabárddal", "csavarhúzóval", "csőkulccsal",
   "doronggal", "duplacsövű puskával",
   "fejszével", "féltéglával", "feszítővassal", "forgópisztollyal", "franciakulccsal",
   "gépkarabéllyal", "géppisztollyal", "gereblyével", "golyószóróval", "göcsörtös bunkósbottal", "gyalogsági ásóval",
-  "hosszú késsel", "hosszú szuronnyal",
-  "Kalasnyikovval", "kapával", "kézigránáttal", "kiegyenesített kaszával", "konyhakéssel", "kőtörő kalapáccsal", "krikettütővel",
-  "láncfűrésszel", "láncos buzogánnyal", "lándzsával", "lángszóróval", "lovagi pallossal",
+  "hangtompítós pisztollyal", "hosszú késsel", "hosszú szuronnyal",
+  "Kalasnyikovval", "kampósbottal", "kapával", "karddal", "kaszával", "kézigránáttal", "kiegyenesített kaszával", "konyhakéssel", "kőtörő kalapáccsal", "krikettütővel",
+  "láncfűrésszel", "láncos buzogánnyal", "lándzsával", "lángszóróval", "lézerágyúval", "lézerpisztollyal", "lovagi pallossal",
   "második világháborús bajonettel",
   "nehéz csákánnyal", "nehézgéppuskával", "nyeles kézigránáttal",
   "pájszerrel", "permetleves lándzsával", "plazmafegyverrel",
   "radiátorcsővel", "rakétavetővel", "rozsdás vascsővel", "RPG-vel",
-  "shotgunnal", "szögekkel kivert cséphadaróval", "szöges buzogánnyal",
+  "shotgunnal",
+  "szamurájkarddal", "szekercével", "számszeríjjal", "szögekkel kivert cséphadaróval", "szöges buzogánnyal",
   "vadászpuskával", "vascsővel", "viperával" ];
 
 var CsataJelzok =
@@ -336,7 +363,9 @@ var Szuperfegyvereket =
   "háromfázisú atombombát", "hidrogénbombát",
   "irányított bombát",
   "kobaltbombát",
+  "megtorlófegyvert",
   "óriási napalmbombát",
+  "robotrepülőgépet",
   "taktikai atomgránátot", "termonukleáris fegyvert", "több tonnás rombolóbombát" ];
 
 function GetSzo(szavak)
@@ -417,6 +446,11 @@ function GetJarmu()
 function GetEroszakSzervezet()
 {
     return GetSzo(EroszakSzervezetek);
+}
+
+function GetEroszakSzervezetTagja()
+{
+    return GetSzo(EroszakSzervezetTagjai);
 }
 
 function GetEroszakosCselekedet()

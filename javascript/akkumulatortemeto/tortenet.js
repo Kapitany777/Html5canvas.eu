@@ -41,7 +41,7 @@ function TortenetGeneralasa()
     tortenet += fohosNeve + " " + fohosFoglalkozasa + " egy " + GetTelepules() + ". ";
     tortenet += "Élete eseménytelenül telik, míg egy " + GetEjszakaJelzo() + " éjszakán váratlanul " + GetSzorny() + " özönlik el a környéket. ";
     tortenet += fohosNeve + " " + GetJarmu() + " menekülni próbál, ";
-    tortenet += "de a települést ekkorra már karantén alá veszik " + Nevelo(GetEroszakSzervezet()) + " állig felfegyverzett emberei, ";
+    tortenet += "de a települést ekkorra már karantén alá veszik " + Nevelo(GetEroszakSzervezet()) + " állig felfegyverzett " + GetEroszakSzervezetTagja() + ", ";
     tortenet += "akik " + GetEroszakosCselekedet() + " a járművet.";
     tortenet += "</p>";
     

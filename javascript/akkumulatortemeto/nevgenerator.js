@@ -2,13 +2,13 @@ var keresztNevek =
 [ "Joe", "Jim", "James", "John", "Han", "Luke", "Charles", "Bill", "Hans", "Wayne", "Walter",
   "Fox", "David", "William", "Martin", "Lucas", "Richard", "Steve", "Tom", "Joel", "Paul",
   "Isaac", "Jules", "Robert", "Brian", "Vincent", "Tobias", "Victor",
-  "Heinrich", "Hermann", "Joseph" ];
+  "Heinrich", "Hermann", "Joseph", "Harry", "Ragnar", "Arthur", "Conan" ];
 
 var vezetekNevek =
 [ "Smith", "Taylor", "Campbell", "Biggs", "Dupont", "Dubois", "Rosenblum", "Black", "White",
   "Brown", "Green", "Reed", "Hawkins", "Armstrong", "Pirx", "Donovan", "Kovacs", "Szabo",
   "Barnes", "Newton", "Langley", "Murdock", "Holmes", "Watson", "Hastings", "King", "MacDonald",
-  "Duke", "Shepard", "Conrad", "Frankenstein", "Potter", "Töpfer" ];
+  "Duke", "Shepard", "Conrad", "Frankenstein", "Potter", "Töpfer", "Sigurdson" ];
   
 function GeneraltNev()
 {
