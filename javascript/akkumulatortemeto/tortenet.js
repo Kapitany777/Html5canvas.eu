@@ -36,6 +36,7 @@ function TortenetGeneralasa()
     
     var felelosCegNeve = GetVallalatNev();
     var felelosNeve = GeneraltNev();
+    var felelosBeosztasa = GetCegvezeto();
     
     tortenet = "<p>";
     tortenet += fohosNeve + " " + fohosFoglalkozasa + " egy " + GetTelepules() + ". ";
@@ -63,10 +64,10 @@ function TortenetGeneralasa()
     tortenet += "Fegyverrel a kezében, bosszúvágytól fűtve elindul " + Nevelo(felelosCegNeve) + " közeli székhelye felé, hogy leszámoljon a felelősökkel. ";
     tortenet += "Útközben " + GetSzorny() + " rontanak rá, de " + fohosNeve + " rövid úton elintézi őket. ";
     tortenet += "Hosszú, " + GetSzin() + " kabátjáról " + Nevelo(GetUndoritoAnyagot()) + " törölgetve halad célja felé. ";
-    tortenet += "A cég központi telephelyén " + GetSzorny() + " védelme mögé rejtőzve már vár rá a gátlástalan cégelnök, " + felelosNeve + ". ";
+    tortenet += "A cég központi telephelyén " + GetSzorny() + " védelme mögé rejtőzve már vár rá a gátlástalan " + felelosBeosztasa + ", " + felelosNeve + ". ";
     tortenet += fohosNeve + " " + GetCsataJelzo() + " küzdelemben legyőzi a bérenceket, ";
     tortenet += "a csata során " + GetMesemmisules() + " a telephelyen lévő " + GetGyariEpulet() + ". ";
-    tortenet += "Az elnök vesztét érezve megpróbál elmenekülni, de " + fohosNeve + " utoléri. ";
+    tortenet += Nevelo(felelosBeosztasa, true) + " vesztét érezve megpróbál elmenekülni, de " + fohosNeve + " utoléri. ";
     tortenet += felelosNeve + " egy " + GetFegyverrel() + " kezében, " + GetTamadasMod() + " ráront ellenfelére. ";
     tortenet += "Támadása elsöprő erejű, " + fohosNeve + " megsebesül, " + GetSebesules() + ". ";
     tortenet += "A főhős erejének utolsó morzsáit kihasználva egy " + GetFegyverrel() + " leszámol az eszét vesztett gonosszal, akinek " + GetSebesules() + ", ";
@@ -75,7 +76,7 @@ function TortenetGeneralasa()
     
     tortenet += "<p>";
     tortenet += fohosNeve + " a földre rogy halott ellenfele mellé. Ekkor azonban repülőgéphajtóművek dübörgését hallja meg a távolból. ";
-    tortenet += "Kirohan a gyárudvarra, és az elnök " + GetJarmu() + " eszement tempóban menekülőre fogja a dolgot. ";
+    tortenet += "Kirohan a gyárudvarra, és " + Nevelo(felelosBeosztasa) + " " + GetJarmu() + " eszement tempóban menekülőre fogja a dolgot. ";
     tortenet += "Biztonságos távolságba érve végignézi, ahogyan " + Nevelo(GetEroszakSzervezet()) + " repülőgépe ";
     tortenet += "egy " + GetSzuperfegyvert() + " dob az otthonát jelentő településre, mely eltűnik egy hatalmas gombafelhőben.";
     tortenet += "</p>";

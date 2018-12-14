@@ -164,31 +164,62 @@ var Szinek =
   "zöld" ];
 
 var Foglalkozasok =
-[ "agysebész", "antikvárius", "antropológus", "autószerelő",
-  "bányász", "barbár", "belső ellenőr", "bérgyilkos", "bérkommentelő", "bicikliőr", "biztonsági őr", "blogger", "bölcsész", "bolti eladó", "bombaszakértő", "borbély",
-  "CIA-ügynök",
-  "csatornatisztító",
+[ "ács", "adatrögzítő", "adószakértő", "agysebész", "antikvárius", "antropológus", "autószerelő",
+  "bádogos", "bányamérnök", "bányász", "barbár", "belső ellenőr", "bérgyilkos", "bérkommentelő", "biciklis", "bicikliőr", "biztonsági őr", "blogger", "bölcsész",
+  "bolti eladó", "bíró", "bombaszakértő", "borbély", "botanikus", "búvár",
+  "CIA-ügynök", "cukrász",
+  "csatornatisztító", "csillagász",
   "diszpécser",
-  "éjjeliőr", "elemző", "erdész",
-  "farmer", "favágó", "FBI-ügynök", "feltaláló", "fogadós",
-  "géppuskás", "gombaszakértő", "gyepmester",
+  "éjjeliőr", "elektrotechnikus", "elemző", "erdész", "esztergályos",
+  "farmer", "favágó", "FBI-ügynök", "feltaláló", "filozófus", "fizikus", "fogadós", "fogorvos", "fogtechnikus", "földmérő", "futballsztár", "füvesember",
+  "géppuskás", "gombaszakértő", "gránátos", "gyalogos", "gyepmester", "gyógytornász",
   "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegesztő", "hóhér", "hurrikánkineziológus",
-  "idegsebész", "informatikus", "író",
-  "kazánfűtő", "kazánkovács", "kém", "kertész", "kidobóember", "kocsmáros", "kommandós", "konspiratológus",
-  "kántor", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körzeti megbízott", "körzeti orvos",
-  "légvédelmi tüzér", "lelkész", "levéltáros", "logopédus",
-  "maffiózó", "magánnyomozó", "mesterlövész", "mérnök", "meteorológus", "motoros hobó", "muzeológus",
+  "idegenvezető", "idegsebész", "informatikus", "inkvizítor", "irattáros", "író",
+  "jogász",
+  "kalauz", "kárpitos", "kazánfűtő", "kazánkovács", "kém", "kéményseprő", "kertész", "kidobóember", "kocsmáros", "kommandós", "konspiratológus", "kontroller",
+  "kovács", "kántor", "kőműves", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körzeti megbízott", "körzeti orvos", "kubikos",
+  "lakatos", "légiforgalmi irányító", "légvédelmi tüzér", "lelkész", "levéltáros", "logopédus",
+  "maffiózó", "magánnyomozó", "matematikus", "matróz", "méhész", "mesterlövész", "mérnök", "meteorológus", "motoros hobó", "mozdonyvezető",
+  "mozigépész", "muzeológus",
   "nanotechnológus", "nindzsa",
   "nyomozó", "nyugalmazott admirális", "nyugalmazott ezredes", "nyugalmazott őrnagy", "nyugalmazott tengernagy",
   "okkultista", "operátor", "orkológus", "őstermelő", "összeesküvő",
   "páncélgránátos", "pap", "parkőr", "patikus", "pék", "pénztáros", "politológus", "portás", "postás", "programozó", "pszichológus", "püspök",
-  "radarkezelő", "régész", "rendőr", "rendszergazda", "rohamosztagos", "röntgenorvos",
-  "sekrestyés", "sírásó",
-  "szabotőr", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociológus", "szonárkezelő",
-  "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "tengeralattjárós", "térképész", "titkosügynök", "traktoros", "tüzér", "tűzszerész",
+  "radarkezelő", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "rohamosztagos", "röntgenorvos",
+  "sámán", "séf", "sekrestyés", "sírásó", "sportoló", "statiszta",
+  "szabó", "szabotőr", "szakács", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociálpolitikus", "szociológus", "szonárkezelő",
+  "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "tengeralattjárós", "térképész", "testőr", "tetőfedő", "titkosügynök", "traktoros",
+  "tróger", "tüzér", "tűzszerész",
   "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "utcaseprő", "üzemmérnök",
-  "vasutas", "vérbíró", "világítótorony-őr",
-  "zugfirkász", "zugügyvéd" ];
+  "vagyonőr", "vasutas", "vegyész", "vérbíró", "világítótorony-őr", "villanyszerelő",
+  "zoológus", "zöldségtermesztő", "zugfirkász", "zugügyvéd" ];
+
+var FoglalkozasPrefixek =
+[ 
+    "al", "alulfizetett ",
+    "bér",
+    "demotivált ",
+    "fedett ", "fő",
+    "helyettes ",
+    "ipari ",
+    "kreatív ", "különleges ",
+    "megbízott ", "mester",
+    "nyugalmazott ",
+    "segéd", "speciális ", "szak",
+    "vezér", "vezető "
+];
+
+var FoglalkozasPostfixek =
+[
+    "alelnök", "asszisztens",
+    "csoportvezető",
+    "elnök",
+    "főosztályvezető",
+    "igazgató",
+    "osztályvezető",
+    "szakasszisztens", "szakértő", "szaktanácsadó",
+    "tanácsadó", "technikus"
+];
 
 var MilyenTelepulesek =
 [ "álmos", "átokverte",
@@ -204,9 +235,11 @@ var Telepulesek =
 [ "faluban", "falucskában",
   "kisvárosban", "koszfészekben", "községben",
   "lakótelepen", "lápvidéken",
-  "nagyközségben",
+  "mocsárvidéken",
+  "nagyközségben", "nagyvárosban",
   "tanyaközpontban",
-  "városkában" ];
+  "városkában",
+  "zsákfaluban" ];
 
 var Jarmuvek =
 [ "Audijával",
@@ -284,6 +317,21 @@ var Termekeket =
   "táplálékkiegészítőket", "természetazonos aromát", "traktorokat",
   "vegyifegyvereket", "vérnyomáscsökkentőket", "vírusokat" ];
 
+var Cegvezetok =
+[
+    "alelnök",
+    "biztonsági főnök",
+    "cégelnök", "cégvezető",
+    "elnök",
+    "főosztályvezető",
+    "gazdasági igazgató",
+    "K+F vezető",
+    "művezető",
+    "osztályvezető",
+    "ügyvezető igazgató", "üzemvezető",
+    "vezérigazgató", "vezérigazgató-helyettes"
+];
+
 var TamadasModok =
 [ "bugyborékoló hörgéssel",
   "eszelős kacajjal",
@@ -319,7 +367,8 @@ var CsataJelzok =
 [ "brutális",
   "elemi erejű",
   "hőseposzba illő",
-  "kegyetlen" ];
+  "kegyetlen",
+  "véres" ];
 
 var Megsemmisulesek =
 [ "darabokra hullik",
@@ -430,7 +479,26 @@ function GetSzin()
 
 function GetFoglalkozas()
 {
-    return GetSzo(Foglalkozasok);
+    var foglalkozas = "";
+    var tmpFoglalkozas = GetSzo(Foglalkozasok);
+    
+    if (tmpFoglalkozas.indexOf(' ') === -1 && tmpFoglalkozas.indexOf('-') === -1)
+    {
+        if (Math.random() < 0.6)
+        {
+            foglalkozas += GetSzo(FoglalkozasPrefixek);
+        }
+    }
+    
+    foglalkozas += tmpFoglalkozas;
+    
+    if (Math.random() < 0.6)
+    {
+        foglalkozas += " ";
+        foglalkozas += GetSzo(FoglalkozasPostfixek);
+    }
+    
+    return foglalkozas;
 }
 
 function GetTelepules()
@@ -461,6 +529,11 @@ function GetEroszakosCselekedet()
 function GetTermeket()
 {
     return GetSzo(Termekeket);
+}
+
+function GetCegvezeto()
+{
+    return GetSzo(Cegvezetok);
 }
 
 function GetTamadasMod()
@@ -502,4 +575,3 @@ function GetPusztulas()
 {
     return GetSzo(Pusztulasok);
 }
-
