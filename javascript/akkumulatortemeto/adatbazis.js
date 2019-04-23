@@ -26,14 +26,14 @@ var Fonevek =
 var EjszakaJelzok =
 [ "csillagtalan",
   "fagyos",
-  "hideg",
+  "hideg", "holdfényes",
   "sötét",
   "viharos" ];
 
 var Szornyek =
 [ "acélgólemek", "alienek", "androidok",
   "barbárok", "bérgyilkosok", "bogarak", "borzalmak",
-  "csápok", "csontvázak", "csótányok", "csupakabrák",
+  "csápok", "csimpánzok", "csontvázak", "csótányok", "csupakabrák",
   "denevérek", "droidok", "drónok",
   "élőholtak",
   "farkasemberek", "farkasok",
@@ -46,7 +46,7 @@ var Szornyek =
   "nindzsák",
   "okkultisták", "orángutánok", "óriások", "óriáspókok", "orkok",
   "patkányok", "pókok",
-  "robotok", "rémhírterjesztők", "rohamosztagosok",
+  "rémhírterjesztők", "robotok", "rohamosztagosok",
   "szamurájok", "szellemek", "szeparatisták", "szörnyetegek",
   "terminátorok", "terroristák", "törpék", "trollok",
   "ufonauták",
@@ -161,6 +161,7 @@ var Szinek =
   "piros",
   "sárga",
   "szürke",
+  "terepszínű",
   "zöld" ];
 
 var Foglalkozasok =
@@ -190,7 +191,7 @@ var Foglalkozasok =
   "szabó", "szabotőr", "szakács", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociálpolitikus", "szociológus", "szonárkezelő",
   "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "tengeralattjárós", "térképész", "testőr", "tetőfedő", "titkosügynök", "traktoros",
   "tróger", "tüzér", "tűzszerész",
-  "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "utcaseprő", "üzemmérnök",
+  "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "űrkutató", "űrgárdista", "utcaseprő", "üzemmérnök",
   "vagyonőr", "vasutas", "vegyész", "vérbíró", "világítótorony-őr", "villanyszerelő",
   "zoológus", "zöldségtermesztő", "zugfirkász", "zugügyvéd" ];
 
@@ -255,7 +256,7 @@ var Jarmuvek =
   "talicskájával", "Trabantjával", "tragacsával", "triciklijével",
   "Verhovinájával", "Volvójával",
   "Wartburgjával",
-  "Zastavájával", "Zetorjával" ];
+  "Zaporozsecével", "Zastavájával", "Zetorjával" ];
 
 var EroszakSzervezetek =
 [ "árnyékkormány",
@@ -275,16 +276,17 @@ var EroszakSzervezetek =
   "seriff", "SWAT", "Szindikátus", "Szpecnaz",
   "templomosok", "tengerészgyalogság", "titkosszolgálat",
   "űrgyalogság",
-  "Wehrmacht" ];
+  "Waffen SS", "Wehrmacht" ];
 
 var EroszakSzervezetTagjai =
 [ "bérgyilkosai",
   "emberei",
   "harcosai",
   "katonái", "kommandósai",
+  "lövészei",
   "mesterlövészei",
-  "pribékjei",
-  "rohamosztagosai",
+  "páncélosai", "pribékjei",
+  "rohamcsapatai", "rohamosztagosai",
   "szuperkatonái",
   "ügynökei",
   "verőemberei" ];
@@ -310,7 +312,7 @@ var Termekeket =
   "gyógyszereket", "gyomirtókat",
   "harci gázokat",
   "ideggázokat", "izotópokat",
-  "kemtrélt", "klónokat", "kristályokat", "kullancsirtószert",
+  "kemtrélt", "kísértetkondenzátumot", "klónokat", "kristályokat", "kullancsirtószert",
   "mutáns baktériumokat",
   "növényvédőszereket", "nyálas sorozatokat",
   "plutóniumot",
@@ -325,6 +327,7 @@ var Cegvezetok =
     "elnök",
     "főosztályvezető",
     "gazdasági igazgató",
+    "igazgató",
     "K+F vezető",
     "művezető",
     "osztályvezető",
@@ -407,12 +410,14 @@ var Szuperfegyvereket =
 [ "1 megatonnás légibombát",
   "atombombát", "atomrobbanófejes robotrepülőgépet",
   "Cár-bombát",
+  "fissziós bombát",
   "lángoló foszforbombát",
   "gigantikus gyújtóbombát",
-  "háromfázisú atombombát", "hidrogénbombát",
-  "irányított bombát",
+  "háromfázisú atombombát", "hidegfúziós bombát", "hidrogénbombát",
+  "ICBM-et", "irányított bombát",
   "kobaltbombát",
-  "megtorlófegyvert",
+  "megtorlófegyvert", "MIRV-et",
+  "nukleáris csapásmérő fegyvert",
   "óriási napalmbombát",
   "robotrepülőgépet",
   "taktikai atomgránátot", "termonukleáris fegyvert", "több tonnás rombolóbombát" ];
