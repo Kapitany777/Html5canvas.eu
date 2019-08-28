@@ -4,14 +4,17 @@ var keresztNevek =
   "Isaac", "Jules", "Robert", "Brian", "Vincent", "Tobias", "Victor",
   "Heinrich", "Hermann", "Joseph", "Harry", "Ragnar", "Arthur", "Conan",
   "Wernher", "Szergej", "Vaszilij", "Jurij", "Nyikita", "Leonyid", "Mihail",
-  "Mesut", "Albert" ];
+  "Mesut", "Albert", "Sherlock", "Otto", "Adolf", "Hercule", "Jack", "Henri", "Ali", "Ahmed",
+  "Stuart", "Peter", "Bernard", "Neil", "Robin", "Tyler", "William" ];
 
 var vezetekNevek =
 [ "Smith", "Taylor", "Campbell", "Biggs", "Dupont", "Dubois", "Rosenblum", "Black", "White",
   "Brown", "Green", "Reed", "Hawkins", "Armstrong", "Pirx", "Donovan", "Kovacs", "Szabo",
   "Barnes", "Newton", "Langley", "Murdock", "Holmes", "Watson", "Hastings", "King", "MacDonald",
   "Duke", "Shepard", "Conrad", "Frankenstein", "Potter", "Töpfer", "Sigurdson", "Müller",
-  "Braun", "Schwarz", "Hindenburg", "Einstein" ];
+  "Braun", "Schwarz", "Hindenburg", "Einstein", "Fraser", "Jones", "Bond", "Croft",
+  "Carmack", "Ritchie", "McLeod", "Weiss", "Ragnarsson", "Poirot", "Romero", "Hood",
+  "Ferguson", "Mulder", "Scully", "König" ];
   
 function GeneraltNev()
 {
