@@ -137,6 +137,18 @@ include_once("page.php");
                     <a href="demo_varosnev.php">Városnevek generálása...</a>
                 </p>
             </div>
+            
+            <div class="demo">
+                <h3>Kifogás-generátor</h3>
+                
+                <p>
+                    Egy madlib program különféle kifogások generálására. Az alapötlet nem az enyém. Fészbúkon kaptam egy alap táblázatot, majd bővítettem ill. módosítottam az adatbázist.
+                </p>
+                
+                <p>
+                    <a href="demo_kifogas.php">Kifogások generálása...</a>
+                </p>
+            </div>
         </div>
         
         <?php PageFooter(); ?>

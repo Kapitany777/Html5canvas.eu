@@ -9,7 +9,7 @@ include_once("page.php");
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="main.css">
         
-        <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
         
         <script type="text/javascript" src="javascript/varosnev/varosnev.js"></script>
         
@@ -25,7 +25,6 @@ include_once("page.php");
         <div id="content">
             <div class="text">
                 <p id="varosnev" class="varosnev">
-                    Podva
                 </p>
                 
                 <p class="center">

@@ -9,7 +9,7 @@ include_once("page.php");
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="main.css">
         
-        <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="javascript/colorUtils.js"></script>
         <script type="text/javascript" src="javascript/clicker1/clicker1.js"></script>
         
