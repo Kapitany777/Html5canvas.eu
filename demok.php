@@ -149,6 +149,18 @@ include_once("page.php");
                     <a href="demo_kifogas.php">Kifogások generálása...</a>
                 </p>
             </div>
+            
+            <div class="demo">
+                <h3>Leleplező politikai cikk generátor</h3>
+                
+                <p>
+                    Egy madlib program, melynek segítségével politikai ellenfeleinket leleplező cikkeket lehet generálni.
+                </p>
+                
+                <p>
+                    <a href="demo_lejaratas.php">Lejárató cikk generálása...</a>
+                </p>
+            </div>
         </div>
         
         <?php PageFooter(); ?>

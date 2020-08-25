@@ -128,7 +128,7 @@ var Rejtekhelyekben =
   "szigeten", "szivattyútelepen",
   "tanyán", "tehenészetben", "temetőben", "templomban", "templomromban", "turistaházban",
   "útőrházban", "úttörőházban",
-  "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótornyban" ];
+  "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótoronyban" ];
 
 var Jelzok =
 [ "agyhalott", "agyroggyant", "agyrohasztó", "alkoholista", "anarchista",

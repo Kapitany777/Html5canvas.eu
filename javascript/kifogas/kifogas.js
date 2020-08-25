@@ -1,6 +1,11 @@
+function GetKifogas()
+{
+    return GetBevezetes() + " " + GetTettes() + " " + GetCselekedet() + "!";
+}
+
 function KifogasGeneralasa()
 {
-    var kifogas = GetBevezetes() + " " + GetTettes() + " " + GetCselekedet() + "!";
+    var kifogas = GetKifogas();
     
     $("#kifogas").html(kifogas);
 }
