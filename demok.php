@@ -158,7 +158,7 @@ include_once("page.php");
                 </p>
                 
                 <p>
-                    <a href="demo_lejaratas.php">Lejárató cikk generálása...</a>
+                    <a href="demo_lejaratas.php">Leleplező cikk generálása...</a>
                 </p>
             </div>
         </div>
