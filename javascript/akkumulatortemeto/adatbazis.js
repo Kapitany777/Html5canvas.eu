@@ -103,10 +103,10 @@ var Helyekben =
   "nekropoliszban",
   "pincében", "piramisban",
   "sírban",
-  "szigeten",
+  "szélmalomban", "szigeten",
   "temetőben", "templomban", "tömegsírban", "turistaházban",
   "utcán",
-  "városban", "világítótoronyban" ];
+  "városban", "világítótoronyban", "vízimalomban" ];
 
 var Rejtekhelyekben =
 [ "akkumulátortemetőben", "aknában", "alagútban", "atombunkerben", "azbesztpalagyárban",
@@ -125,17 +125,17 @@ var Rejtekhelyekben =
   "parkolóban", "pincében", "piramisban",
   "raktárban", "repülőtéren",
   "sírban",
-  "szigeten", "szivattyútelepen",
+  "szélmalomban", "szigeten", "szivattyútelepen",
   "tanyán", "tehenészetben", "temetőben", "templomban", "templomromban", "turistaházban",
   "útőrházban", "úttörőházban",
-  "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótoronyban" ];
+  "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótoronyban", "vízimalomban" ];
 
 var Jelzok =
 [ "agyhalott", "agyroggyant", "agyrohasztó", "alkoholista", "anarchista",
   "barbár", "barlangi", "borzalmas", "bosszúálló", "brutális", "büdös", "bűzlő",
   "cigarettás", "ciklopi",
   "dögletes", "dögsanyarta",
-  "elátkozott", "elmebeteg", "eszelős", "eszement", "eszkimó",
+  "elátkozott", "elmebeteg", "elméleti", "eszelős", "eszement", "eszkimó",
   "fékevesztett", "féllábú", "fertőzött",
   "gázálarcos", "génmanipulált", "génmódosított", "gépesített", "gigantikus", "gonosz",
   "gyanús",
@@ -182,7 +182,7 @@ var Szinek =
   "zöld" ];
 
 var Foglalkozasok =
-[ "ács", "adatrögzítő", "adószakértő", "agysebész", "alkoholista", "antikvárius", "antropológus", "asztalos", "autószerelő",
+[ "ács", "adatrögzítő", "adószakértő", "agysebész", "aktivista", "alkoholista", "antikvárius", "antropológus", "asztalos", "autószerelő",
   "bádogos", "bakter", "bányamérnök", "bányász", "barbár", "belső ellenőr", "bérgyilkos", "bérkommentelő", "bíboros", "biciklis", "bicikliőr",
   "biztonsági őr", "blogger", "bölcsész", "bolti eladó", "bíró", "bombaszakértő", "borbély", "botanikus", "búvár",
   "CIA-ügynök", "cimbalmos", "citerás", "cukrász",
@@ -204,8 +204,8 @@ var Foglalkozasok =
   "nyomozó", "nyugalmazott admirális", "nyugalmazott ezredes", "nyugalmazott őrnagy", "nyugalmazott tengernagy",
   "okkultista", "oknyomozó újságíró", "operátor", "orkológus", "őstermelő", "összeesküvő",
   "páncélgránátos", "pap", "paraszt", "parkőr", "patikus", "pék", "pénztáros", "politikus", "politológus", "portás", "postás",
-  "presbiter", "programozó", "pszichológus", "püspök",
-  "radarkezelő", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "rohamosztagos", "röntgenorvos",
+  "párttag", "presbiter", "programozó", "pszichológus", "püspök",
+  "radarkezelő", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "rohamosztagos", "rohamrendőr", "röntgenorvos",
   "sámán", "séf", "sekrestyés", "sírásó", "sportoló", "statiszta",
   "szabó", "szabotőr", "szakács", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociálpolitikus", "szociológus", "szonárkezelő",
   "táltos", "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "tengeralattjárós", "térképész", "testőr", "tetőfedő", "titkosügynök", "toronyőr",
@@ -216,15 +216,17 @@ var Foglalkozasok =
 
 var FoglalkozasPrefixek =
 [ 
-    "al", "alulfizetett ",
+    "al", "alkalmazott ", "alulfizetett ",
     "bér",
-    "demotivált ",
+    "demotivált ", "diplomás ",
+    "elméleti ",
     "fedett ", "fő",
     "helyettes ",
     "ipari ",
-    "kreatív ", "különleges ",
-    "megbízott ", "mester",
+    "kísérleti ", "kreatív ", "különleges ",
+    "megbízott ", "mester", "mezőgazdasági ",
     "nyugalmazott ",
+    "okleveles ",
     "segéd", "speciális ", "szak",
     "vezér", "vezető "
 ];
