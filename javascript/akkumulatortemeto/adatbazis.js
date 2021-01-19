@@ -186,12 +186,12 @@ var Foglalkozasok =
   "bádogos", "bakter", "bányamérnök", "bányász", "barbár", "belső ellenőr", "bérgyilkos", "bérkommentelő", "bíboros", "biciklis", "bicikliőr",
   "biztonsági őr", "blogger", "bölcsész", "bolti eladó", "bíró", "bombaszakértő", "borbély", "botanikus", "búvár",
   "CIA-ügynök", "cimbalmos", "citerás", "cukrász",
-  "csatornatisztító", "csillagász",
+  "csatornatisztító", "csillagász", "csősz",
   "despota", "diszpécser",
   "éjjeliőr", "elektrotechnikus", "elemző", "erdész", "esztergályos",
   "farmer", "favágó", "FBI-ügynök", "feltaláló", "filozófus", "firkász", "fizikus", "fogadós", "fogorvos", "fogtechnikus", "földmérő", "földműves",
   "főpap", "futballsztár", "füvesember",
-  "géppuskás", "gladiátor", "gombaszakértő", "gránátos", "gyalogos", "gyepmester", "gyógytornász",
+  "géppuskás", "gladiátor", "gombaszakértő", "gondnok", "gránátos", "gyalogos", "gyepmester", "gyógytornász",
   "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegedűs", "hegesztő", "hóhér", "hurrikánkineziológus",
   "idegenvezető", "idegsebész", "informatikus", "inkvizítor", "irattáros", "író",
   "jogász",
@@ -209,8 +209,8 @@ var Foglalkozasok =
   "radarkezelő", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "rohamosztagos", "rohamrendőr", "röntgenorvos",
   "sámán", "séf", "sekrestyés", "sírásó", "sportoló", "statiszta",
   "szabó", "szabotőr", "szakács", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociálpolitikus", "szociológus", "szonárkezelő",
-  "táltos", "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "tengeralattjárós", "térképész", "testőr", "tetőfedő", "titkosügynök", "toronyőr",
-  "traktoros", "trombitás", "tróger", "tüzér", "tűzszerész",
+  "táltos", "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "temetőcsősz", "tengeralattjárós", "térképész", "testőr", "tetőfedő",
+  "titkosügynök", "toronyőr", "traktoros", "trombitás", "tróger", "tüzér", "tűzszerész",
   "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "űrkutató", "űrgárdista", "utazó ügynök", "utcaseprő", "üzemmérnök",
   "vadász", "vadőr", "vagyonőr", "váltókezelő", "vasutas", "vegyész", "vérbíró", "világítótorony-őr", "villanyszerelő",
   "zoológus", "zöldségtermesztő", "zugfirkász", "zugügyvéd" ];
@@ -224,11 +224,12 @@ var FoglalkozasPrefixek =
     "fedett ", "fő",
     "helyettes ",
     "ipari ",
+    "junior ",
     "kísérleti ", "kreatív ", "különleges ",
     "megbízott ", "mester", "mezőgazdasági ",
     "nyugalmazott ",
     "okleveles ",
-    "segéd", "speciális ", "szak",
+    "segéd", "senior ", "speciális ", "szak",
     "vezér", "vezető "
 ];
 
@@ -256,20 +257,23 @@ var MilyenTelepulesek =
   "vidéki" ];
 
 var Telepulesek =
-[ "bányatelepen",
-  "faluban", "falucskában",
-  "gátőrházban", "gyártelepen",
-  "hegyen", "hegyvidéken",
-  "kantelepen", "kikötőben", "kisvárosban", "koszfészekben", "községben",
-  "lakótelepen", "lápvidéken",
-  "mocsárvidéken",
-  "nagyközségben", "nagyvárosban",
-  "pusztaságban",
-  "szigeten", "szivattyútelepen",
-  "tanyaközpontban", "tanyán", "tengeralattjáró-bázison",
-  "üdülőben",
-  "városkában", "vasútállomáson", "völgyben",
-  "zsákfaluban" ];
+    [ "bányatelepen",
+      "dombon",
+      "faluban", "falucskában",
+      "gátőrházban", "gyártelepen",
+      "hegyen", "hegyvidéken",
+      "jégmezőn",
+      "kantelepen", "kikötőben", "kisvárosban", "koszfészekben", "községben",
+      "lakótelepen", "lápvidéken",
+      "mocsárvidéken",
+      "nagyközségben", "nagyvárosban",
+      "pusztaságban",
+      "sivatagban",
+      "szigeten", "szivattyútelepen",
+      "tanyaközpontban", "tanyán", "tengeralattjáró-bázison",
+      "üdülőben",
+      "városkában", "vasútállomáson", "völgyben",
+      "zsákfaluban" ];
 
 var Jarmuvek =
 [ "Audijával",
