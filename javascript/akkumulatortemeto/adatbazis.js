@@ -15,12 +15,12 @@ var Fonevek =
   "nyagóc",
   "orvlövész",
   "öregember",
-  "patkány", "plazmagömb", "pusztulás",
+  "partizán", "patkány", "plazmagömb", "pusztulás",
   "rém", "rémtett", "rémület", "rettenet", "rom", "rothadás",
   "sintér", "sír", "sírrabló", "sötétség", "suttogás", "szellem", "szörny", "szörnyeteg",
   "tél", "temető", "templom", "terminátor", "tömeggyilkos", "tömegsír", "tudós",
   "utca",
-  "város", "vámpír", "végzet", "vér", "véreső", "vérfarkas", "vérzivatar", "világítótorony",
+  "város", "vámpír", "végzet", "vér", "véreső", "vérfarkas", "vérzivatar", "vietkong", "világítótorony",
   "zombi", "zóna" ];
 
 var EjszakaJelzok =
@@ -33,7 +33,7 @@ var EjszakaJelzok =
 
 var Szornyek =
 [ "acélgólemek", "alienek", "androidok",
-  "barbárok", "bérgyilkosok", "bérkommentelők", "bogarak", "borzalmak",
+  "barbárok", "bérgyilkosok", "bérkommentelők", "bigfootok", "bogarak", "borzalmak",
   "csápok", "csatagólemek", "csatamajmok", "csimpánzok", "csontvázak", "csótányok", "csupakabrák",
   "denevérek", "droidok", "drónok",
   "élőholtak",
@@ -47,7 +47,7 @@ var Szornyek =
   "macskák", "majmok", "manók", "marslakók", "medvék", "molyemberek", "múmiák", "mutánsok", "mutáns zombik",
   "nazgulok", "nekromanták", "nindzsák",
   "ogrék", "okkultisták", "orángutánok", "óriások", "óriáspókok", "orkok",
-  "patkányok", "plazmagömbök", "pókok", "politikusok",
+  "partizánok", "patkányok", "plazmagömbök", "pókok", "politikusok",
   "rapperek", "rémhírterjesztők", "robotok", "rohamosztagosok",
   "sámánok",
   "szamurájok", "szellemek", "szeparatisták", "szörnyetegek",
@@ -91,14 +91,14 @@ var Helyekbol =
 
 var Helyekben =
 [ "akkumulátortemetőben", "alagútban", "azbesztpalagyárban",
-  "bányában", "barlangban", "boncasztalon", "boncteremben",
+  "bányában", "barlangban", "bázison", "boncasztalon", "boncteremben",
   "csatornában",
   "dögtelepen",
   "elmegyógyintézetben",
   "falon",
   "házban", "hegyen",
   "katakombában", "kolostorban", "kriptában", "ködben", "kútban",
-  "lápvidéken",
+  "lápvidéken", "ligetben",
   "malomban", "mélyben", "mélyűrben", "menedékházban", "mocsárban", "múzeumban",
   "nekropoliszban",
   "pincében", "piramisban",
@@ -110,7 +110,7 @@ var Helyekben =
 
 var Rejtekhelyekben =
 [ "akkumulátortemetőben", "aknában", "alagútban", "atombunkerben", "azbesztpalagyárban",
-  "bányában", "barakképületben", "barlangban", "bunkerben",
+  "bányában", "barakképületben", "barlangban", "bázison", "bunkerben",
   "csárdában", "csatornában", "csónakházban",
   "dögtelepen",
   "elmegyógyintézetben", "erdészházban", "erdőben", "erőműben",
@@ -119,7 +119,7 @@ var Rejtekhelyekben =
   "gyárban", "gyártelepen", "gyümölcsösben",
   "házban", "hegyen",
   "kantelepen", "kápolnában", "kastélyban", "katakombában", "kilátóban", "kocsmában", "kolostorban", "kriptában", "kunyhóban", "kútban",
-  "ligetben",
+  "légibázison", "ligetben", "lövészárokban",
   "magaslesen", "malomban", "menedékházban", "mocsárban", "múzeumban",
   "őrházban", "őrtoronyban",
   "parkolóban", "pincében", "piramisban",
@@ -135,22 +135,22 @@ var Jelzok =
   "barbár", "barlangi", "borzalmas", "bosszúálló", "brutális", "büdös", "bűzlő",
   "cigarettás", "ciklopi",
   "dögletes", "dögsanyarta",
-  "elátkozott", "elmebeteg", "elméleti", "eszelős", "eszement", "eszkimó",
-  "fékevesztett", "féllábú", "fertőzött",
+  "elátkozott", "elmebeteg", "elméleti", "eltorzult", "eszelős", "eszement", "eszkimó",
+  "fékevesztett", "féllábú", "fertőzött", "földmélyi",
   "gázálarcos", "génmanipulált", "génmódosított", "gépesített", "gigantikus", "gonosz",
   "gyanús",
   "habzó szájú", "halott", "hatalmas", "hegyi", "hideg", "hónaljmankós",
-  "idegen", "indián",
+  "idegen", "indián", "ismeretlen",
   "kidülledt szemű", "klónozott", "ködös",
   "láncdohányos", "láncfűrészes", "lápi", "lázadó", "lebegő", "lidérces", "lopakodó",
-  "mandzsúriai", "más dimenzióból érkezett", "megnevezhetetlen", "mélyűri", "mocsári", "mutáns",
-  "nanoruhás", "napszemüveges", "névtelen", "nukleáris", "nyálkás",
+  "mandzsúriai", "más dimenzióból érkezett", "megnevezhetetlen", "mélytengeri", "mélyűri", "mocsári", "molekuláris", "mutáns",
+  "nanoruhás", "napszemüveges", "neandervölgyi", "névtelen", "nukleáris", "nyálkás",
   "osonó", "őrjöngő", "őrült", "ősi",
   "páncélozott", "pöhös", "pszichopata", "pusztító",
   "radioaktív", "rángatózó", "rémséges", "rettenetes", "rituális", "rothadó",
   "síri", "sötét", "sugárfertőzött", "sugárzó",
   "szemüveges", "szkafanderes", "szörnyű", "szürke",
-  "tébolyult", "temetői", "tomboló", "tömegpusztító", "tudatmanipulált",
+  "tébolyult", "temetői", "tomboló", "tömegpusztító", "torz", "tudatmanipulált",
   "vegyi", "végzetes", "vén", "véres", "vérgonyasztó", "vérivó", "vérszívó", "veszett",
   "zulu" ];
 
@@ -191,28 +191,29 @@ var Foglalkozasok =
   "éjjeliőr", "elektrotechnikus", "elemző", "erdész", "esztergályos",
   "farmer", "favágó", "FBI-ügynök", "feltaláló", "filozófus", "firkász", "fizikus", "fogadós", "fogorvos", "fogtechnikus", "földmérő", "földműves",
   "főpap", "futballsztár", "füvesember",
-  "géppuskás", "gladiátor", "gombaszakértő", "gondnok", "gránátos", "gyalogos", "gyepmester", "gyógytornász",
+  "géppuskás", "gerilla", "gladiátor", "gombaszakértő", "gondnok", "gránátos", "gyalogos", "gyepmester", "gyógytornász",
   "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegedűs", "hegesztő", "hóhér", "hurrikánkineziológus",
   "idegenvezető", "idegsebész", "informatikus", "inkvizítor", "irattáros", "író",
   "jogász",
   "kalauz", "kantelep-vezető", "kárpitos", "kazánfűtő", "kazánkovács", "kém", "kéményseprő", "kertész", "kidobóember", "kintornás",
   "kocsmáros", "kommandós", "konspiratológus", "kontroller",
   "kovács", "kántor", "kőműves", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körhintás", "körzeti megbízott", "körzeti orvos", "kubikos",
-  "lakatos", "lakodalmas zenész", "láncdohányos", "légiforgalmi irányító", "légvédelmi tüzér", "lelkész", "levéltáros", "logopédus",
+  "laboráns", "lakatos", "lakodalmas zenész", "láncdohányos", "légiforgalmi irányító", "légvédelmi tüzér", "lelkész", "levéltáros", "logopédus",
   "maffiózó", "magánnyomozó", "matematikus", "matróz", "méhész", "mesterlövész", "merénylő", "mérnök", "meteorológus", "motoros hobó", "mozdonyvezető",
   "mozigépész", "műszerész", "muzeológus",
   "nanotechnológus", "nagybőgős", "nindzsa",
   "nyomozó", "nyugalmazott admirális", "nyugalmazott ezredes", "nyugalmazott őrnagy", "nyugalmazott tengernagy",
   "okkultista", "oknyomozó újságíró", "operátor", "orkológus", "őstermelő", "összeesküvő",
-  "páncélgránátos", "pap", "paraszt", "parkőr", "patikus", "pék", "pénztáros", "politikus", "politológus", "portás", "postás",
+  "páncélgránátos", "pap", "paraszt", "parkőr", "partizán", "patikus", "pék", "pénztáros", "politikus", "politológus", "portás", "postás",
   "párttag", "presbiter", "programozó", "pszichológus", "püspök",
-  "radarkezelő", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "rohamosztagos", "rohamrendőr", "röntgenorvos",
+  "radarkezelő", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "repülésirányító", "rohamosztagos", "rohamrendőr",
+  "rohamutász", "röntgenorvos",
   "sámán", "séf", "sekrestyés", "sírásó", "sportoló", "statiszta",
   "szabó", "szabotőr", "szakács", "szakszervezeti vezető", "szamuráj", "szerzetes", "szociálpolitikus", "szociológus", "szonárkezelő",
-  "táltos", "tanár", "targoncás", "tarlófelelős", "technikus", "téemkás", "tehenész", "temetőcsősz", "tengeralattjárós", "térképész", "testőr", "tetőfedő",
-  "titkosügynök", "toronyőr", "traktoros", "trombitás", "tróger", "tüzér", "tűzszerész",
+  "táltos", "tanár", "targoncás", "tarlófelelős", "taxisofőr", "technikus", "téemkás", "tehenész", "temetőcsősz", "tengeralattjárós", "térképész",
+  "testőr", "tetőfedő", "titkosügynök", "toronyőr", "traktoros", "trombitás", "tróger", "tüzér", "tűzszerész",
   "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "űrkutató", "űrgárdista", "utazó ügynök", "utcaseprő", "üzemmérnök",
-  "vadász", "vadőr", "vagyonőr", "váltókezelő", "vasutas", "vegyész", "vérbíró", "világítótorony-őr", "villanyszerelő",
+  "vadász", "vadőr", "vagyonőr", "váltókezelő", "vasutas", "vegyész", "vérbíró", "vietkong", "világítótorony-őr", "villanyszerelő",
   "zoológus", "zöldségtermesztő", "zugfirkász", "zugügyvéd" ];
 
 var FoglalkozasPrefixek =
@@ -229,6 +230,7 @@ var FoglalkozasPrefixek =
     "megbízott ", "mester", "mezőgazdasági ",
     "nyugalmazott ",
     "okleveles ",
+    "rehabilitált ",
     "segéd", "senior ", "speciális ", "szak",
     "vezér", "vezető "
 ];
@@ -241,7 +243,7 @@ var FoglalkozasPostfixek =
     "főosztályvezető",
     "igazgató",
     "osztályvezető",
-    "szakasszisztens", "szakértő", "szaktanácsadó",
+    "szakasszisztens", "szakbarbár", "szakértő", "szaktanácsadó",
     "tanácsadó", "technikus"
 ];
 
@@ -269,10 +271,10 @@ var Telepulesek =
       "nagyközségben", "nagyvárosban",
       "pusztaságban",
       "sivatagban",
-      "szigeten", "szivattyútelepen",
+      "szélmalomban", "szigeten", "szivattyútelepen",
       "tanyaközpontban", "tanyán", "tengeralattjáró-bázison",
       "üdülőben",
-      "városkában", "vasútállomáson", "völgyben",
+      "városkában", "vasútállomáson", "vízimalomban", "völgyben",
       "zsákfaluban" ];
 
 var Jarmuvek =
@@ -304,7 +306,7 @@ var EroszakSzervezetek =
   "jakobinusok", "járványügyi hivatal",
   "Királyi Légierő",
   "légierő", "lovasrendőrség", "Luftwaffe",
-  "milícia",
+  "milícia", "Monsanto",
   "Navy Seals", "Nemzeti Gárda",
   "ORTT",
   "Parti Őrség", "postafelügyelet",
@@ -319,14 +321,15 @@ var EroszakSzervezetek =
 var EroszakSzervezetTagjai =
 [ "bérgyilkosai", "búvárai",
   "emberei",
+  "géppuskásai", "gránátosai",
   "harcosai",
   "katonái", "kommandósai",
-  "lövészei",
+  "lángszórósai", "légelhárítói", "lövészei",
   "mesterlövészei",
-  "páncélosai", "pribékjei",
-  "rohamcsapatai", "rohamosztagosai",
+  "páncélgránátosai", "páncélosai", "pribékjei",
+  "rohamcsapatai", "rohamosztagosai", "rohamutászai",
   "szuperkatonái",
-  "tűzszerészei",
+  "tüzérei", "tűzszerészei",
   "ügynökei",
   "verőemberei" ];
 
@@ -458,6 +461,7 @@ var Pusztulasok =
 var Szuperfegyvereket =
 [ "1 megatonnás légibombát",
   "atombombát", "atomrobbanófejes robotrepülőgépet",
+  "bunkerrombolót",
   "Cár-bombát",
   "fissziós bombát",
   "lángoló foszforbombát", "levegő-föld rakétát",
