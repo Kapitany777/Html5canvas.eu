@@ -1,4 +1,4 @@
-var keresztNevek =
+let keresztNevek =
 [ "Joe", "Jim", "James", "John", "Han", "Luke", "Charles", "Bill", "Hans", "Wayne", "Walter",
   "Fox", "David", "William", "Martin", "Lucas", "Richard", "Steve", "Tom", "Joel", "Paul",
   "Isaac", "Jules", "Robert", "Brian", "Vincent", "Tobias", "Victor",
@@ -7,7 +7,7 @@ var keresztNevek =
   "Mesut", "Albert", "Sherlock", "Otto", "Adolf", "Hercule", "Jack", "Henri", "Ali", "Ahmed",
   "Stuart", "Peter", "Bernard", "Neil", "Robin", "Tyler", "William", "Nikola", "Nick" ];
 
-var vezetekNevek =
+let vezetekNevek =
 [ "Smith", "Taylor", "Campbell", "Biggs", "Dupont", "Dubois", "Rosenblum", "Black", "White",
   "Brown", "Green", "Reed", "Hawkins", "Armstrong", "Pirx", "Donovan", "Kovacs", "Szabo",
   "Barnes", "Newton", "Langley", "Murdock", "Holmes", "Watson", "Hastings", "King", "MacDonald",
@@ -15,11 +15,20 @@ var vezetekNevek =
   "Braun", "Schwarz", "Hindenburg", "Einstein", "Fraser", "Jones", "Bond", "Croft",
   "Carmack", "Ritchie", "McLeod", "Weiss", "Ragnarsson", "Poirot", "Romero", "Hood",
   "Ferguson", "Mulder", "Scully", "König", "Tesla" ];
-  
+
+let elotagok = [ "Dr.", "Prof." ];
+
 function GeneraltNev()
 {
-    var keresztNev = keresztNevek[Math.floor(Math.random() * keresztNevek.length)];
-    var vezetekNev = vezetekNevek[Math.floor(Math.random() * vezetekNevek.length)];
-    
-    return keresztNev + " " + vezetekNev;
+    let keresztNev = keresztNevek[Math.floor(Math.random() * keresztNevek.length)];
+    let vezetekNev = vezetekNevek[Math.floor(Math.random() * vezetekNevek.length)];
+
+    let nev = keresztNev + " " + vezetekNev;
+
+    if (Math.random() < 0.2)
+    {
+        nev = elotagok[Math.floor(Math.random() * elotagok.length)] + " " + nev;
+    }
+
+    return nev;
 }
