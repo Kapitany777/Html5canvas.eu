@@ -271,7 +271,7 @@ const FoglalkozasPrefixek =
         "helyettes ",
         "ipari ",
         "junior ",
-        "képesített ", "kiégett", "kiemelt ", "kísérleti ", "kreatív ", "különleges ", "külsős ",
+        "képesített ", "kiégett ", "kiemelt ", "kísérleti ", "kreatív ", "különleges ", "külsős ",
         "megbízott ", "mester", "mezőgazdasági ", "műkedvelő ",
         "nyugalmazott ",
         "okleveles ", "operatív ",
