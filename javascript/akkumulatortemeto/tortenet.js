@@ -1,7 +1,7 @@
 function TortenetCim()
 {
-    var cim = Nevelo(GetJelzo(), true) + " " + GetFonev();
-    
+    let cim = Nevelo(GetJelzo(), true) + " " + GetFonev();
+
     if (Math.random() < 0.5)
     {
         cim += " " + GetBirtok();
@@ -27,18 +27,18 @@ function TortenetCim()
 function TortenetGeneralasa()
 {
     $("#tortenetCime").text(TortenetCim());
-    
-    var fohosNeve = GeneraltNev();
-    var fohosFoglalkozasa = GetFoglalkozas();
-    
-    var mentorNeve = GeneraltNev();
-    var mentorFoglalkozasa = GetFoglalkozas();
-    
-    var felelosCegNeve = GetVallalatNev();
-    var felelosNeve = GeneraltNev();
-    var felelosBeosztasa = GetCegvezeto();
-    
-    tortenet = "<p>";
+
+    const fohosNeve = GeneraltNev();
+    const fohosFoglalkozasa = GetFoglalkozas();
+
+    const mentorNeve = GeneraltNev();
+    const mentorFoglalkozasa = GetFoglalkozas();
+
+    const felelosCegNeve = GetVallalatNev();
+    const felelosNeve = GeneraltNev();
+    const felelosBeosztasa = GetCegvezeto();
+
+    let tortenet = "<p>";
     tortenet += fohosNeve + " " + fohosFoglalkozasa + " egy " + GetTelepules() + ". ";
     tortenet += "Élete eseménytelenül telik, míg egy " + GetEjszakaJelzo() + " éjszakán váratlanul " + GetSzorny() + " özönlik el a környéket. ";
     tortenet += fohosNeve + " " + GetJarmu() + " menekülni próbál, ";
@@ -48,7 +48,7 @@ function TortenetGeneralasa()
     
     tortenet += "<p>";
     tortenet += fohosNeve + " puszta életét mentve kénytelen elmenekülni a helyszínről. ";
-    tortenet += "Megpróbál elrejtőzni egy közeli " + GetRejtekhelyben() + ", de nincs egyedül. ";
+    tortenet += "Megpróbál elrejtőzni egy " + GetRejtekhelyJelzo() + " " + GetRejtekhelyben() + ", de nincs egyedül. ";
     tortenet += "Itt lapul az öreg " + mentorNeve + ", a helyi " + mentorFoglalkozasa + " is, akinek szintén sikerült elkerülni a rá leselkedő végzetet. ";
     tortenet += fohosNeve + " megtudja az öregtől, hogy az őket sújtó katasztrófáért " + Nevelo(GetTermeket()) + " előállító " + felelosCegNeve + " a felelős. ";
     tortenet += mentorNeve + " megpróbálja rábeszélni társát, hogy pusztítsák el az ellenséget, de ";
