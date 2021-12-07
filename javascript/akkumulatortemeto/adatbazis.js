@@ -136,11 +136,11 @@ const RejtekhelyJelzok =
 const Rejtekhelyekben =
     [
         "acélbunkerben", "akkumulátortemetőben", "aknában", "alagútban", "atombunkerben", "atomerőműben", "azbesztpalagyárban",
-        "bányában", "barakképületben", "barlangban", "bázison", "betonbunkerben", "bunkerben",
+        "bányában", "barakképületben", "barlangban", "bázison", "betonbunkerben", "borospincében", "bunkerben",
         "csárdában", "csatornában", "csónakházban",
         "dögtelepen",
         "elmegyógyintézetben", "erdészházban", "erdőben", "erőműben",
-        "faházban", "FEMA-táborban", "földalatti bázison",
+        "faházban", "FEMA-táborban", "földalatti bázison", "fóliasátorban",
         "gátőrházban",
         "gyárban", "gyártelepen", "gyümölcsösben",
         "házban", "hegyen", "hodályban",
@@ -154,7 +154,7 @@ const Rejtekhelyekben =
         "sírban",
         "szélmalomban", "szénbányában", "szigeten", "szivattyútelepen",
         "tanyán", "tehenészetben", "tengeralattjáró-bázison", "temetőben", "templomban", "templomromban", "traktorgyárban", "turistaházban",
-        "ufóbázison", "útőrházban", "úttörőházban",
+        "ufóbázison", "útőrházban", "úttörőházban", "üvegházban",
         "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótoronyban", "vízimalomban",
         "zónában"
     ];
@@ -351,7 +351,7 @@ const Jarmuvek =
 const EroszakSzervezetek =
     [
         "árnyékkormány",
-        "Bilderberg-csoport", "Birodalom",
+        "Bilderberg-csoport", "Birodalom", "Bundesliga", "Bundeswehr",
         "CIA", "Császári Gárda",
         "Delta Force",
         "ejtőernyős hadosztály", "elhárítás",
@@ -362,7 +362,7 @@ const EroszakSzervezetek =
         "jakobinusok", "járványügyi hivatal",
         "Királyi Légierő",
         "légierő", "lovasrendőrség", "Luftwaffe",
-        "milícia", "Monsanto",
+        "milícia", "Monsanto", "Munkásőrség",
         "Navy Seals", "Nemzeti Gárda",
         "ORTT",
         "Parti Őrség", "postafelügyelet",
@@ -371,7 +371,7 @@ const EroszakSzervezetek =
         "Szindikátus", "Szpecnaz",
         "templomosok", "tengerészgyalogság", "titkosszolgálat",
         "űrgyalogság",
-        "Vietkong",
+        "Vietkong", "Vörös Hadsereg",
         "Waffen SS", "Wehrmacht"
     ];
 

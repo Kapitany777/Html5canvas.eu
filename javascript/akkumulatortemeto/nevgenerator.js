@@ -7,7 +7,7 @@ const keresztNevek =
         "Mesut", "Albert", "Sherlock", "Otto", "Adolf", "Hercule", "Jack", "Henri", "Ali", "Ahmed",
         "Stuart", "Peter", "Bernard", "Neil", "Robin", "Tyler", "William", "Nikola", "Nick",
         "Gordon", "Barney", "Adrian", "Eli", "Wallace", "Michael", "Wilhelm", "Leslie", "Lawrence",
-        "Abraham", "Donald"];
+        "Abraham", "Donald", "Jackson" ];
 
 const vezetekNevek =
     ["Smith", "Taylor", "Campbell", "Biggs", "Dupont", "Dubois", "Rosenblum", "Black", "White",
@@ -19,9 +19,10 @@ const vezetekNevek =
         "Ferguson", "Mulder", "Scully", "König", "Tesla", "Grünwald",
         "Freeman", "Calhoun", "Shephard", "Rosenberg", "Rosenfeld", "Cross", "Keller", "Bennet",
         "Simmons", "Vance", "Kleiner", "Magnusson", "Mossman", "Glacius", "Sabrewulf", "Spinal", "Raptor",
-        "Bear", "Wolf", "Kilgore", "Kurtz", "Lincoln", "McDonald"];
+        "Bear", "Wolf", "Kilgore", "Kurtz", "Lincoln", "McDonald", "Vader", "Kurgan", "Stonewall",
+        "Longstreet", "Lee", "Bishop", "Ash", "Ripley", "Hicks", "Hudson", "Vasquez", "Frost" ];
 
-const elotagok = ["Dr.", "Prof.", "Sir", "Lord", "Herr"];
+const elotagok = [ "Dr.", "Prof.", "Sir", "Lord", "Herr" ];
 
 function GeneraltNev()
 {
