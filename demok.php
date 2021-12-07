@@ -161,6 +161,18 @@ include_once("page.php");
                     <a href="demo_lejaratas.php">Leleplező cikk generálása...</a>
                 </p>
             </div>
+
+            <div class="demo">
+                <h3>Favicc generátor</h3>
+
+                <p>
+                    Egy madlib program, melynek segítségével favicceket lehet egy témában generálni.
+                </p>
+
+                <p>
+                    <a href="demo_favicc.php">Egy új favicc generálása...</a>
+                </p>
+            </div>
         </div>
         
         <?php PageFooter(); ?>
