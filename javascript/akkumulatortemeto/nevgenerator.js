@@ -1,28 +1,54 @@
 const keresztNevek =
-    ["Joe", "Jim", "James", "John", "Han", "Luke", "Charles", "Bill", "Hans", "Wayne", "Walter",
-        "Fox", "David", "William", "Martin", "Lucas", "Richard", "Steve", "Tom", "Joel", "Paul",
-        "Isaac", "Jules", "Robert", "Brian", "Vincent", "Tobias", "Victor",
-        "Heinrich", "Hermann", "Joseph", "Harry", "Ragnar", "Arthur", "Conan", "Arnold",
-        "Wernher", "Szergej", "Vaszilij", "Jurij", "Nyikita", "Leonyid", "Mihail",
-        "Mesut", "Albert", "Sherlock", "Otto", "Adolf", "Hercule", "Jack", "Henri", "Ali", "Ahmed",
-        "Stuart", "Peter", "Bernard", "Neil", "Robin", "Tyler", "William", "Nikola", "Nick",
-        "Gordon", "Barney", "Adrian", "Eli", "Wallace", "Michael", "Wilhelm", "Leslie", "Lawrence",
-        "Abraham", "Donald", "Jackson" ];
+    [
+        "Abraham", "Adolf", "Adrian", "Ahmed", "Albert", "Ali", "Arnold", "Arthur",
+        "Barney", "Bernard", "Bill", "Brian",
+        "Charles", "Conan",
+        "David", "Donald",
+        "Eli",
+        "Fox",
+        "Gordon",
+        "Han", "Hans", "Harry", "Heinrich", "Henri", "Hercule", "Hermann",
+        "Isaac",
+        "Jack", "Jackson", "James", "Jim", "Joe", "Joel", "John", "Joseph", "Jules", "Jurij",
+        "Lawrence", "Leonyid", "Leslie", "Lucas", "Luke",
+        "Martin", "Mesut", "Michael", "Mihail",
+        "Neil", "Nick", "Nikola",
+        "Nyikita",
+        "Otto",
+        "Paul", "Peter",
+        "Ragnar", "Richard", "Robert", "Robin", "Ron",
+        "Sherlock", "Steve", "Stuart",
+        "Szergej",
+        "Tobias", "Tom", "Tyler",
+        "Vaszilij", "Vlagyimir", "Victor", "Vincent",
+        "Wallace", "Walter", "Wayne", "Wernher", "Wilhelm", "William"
+    ];
 
 const vezetekNevek =
-    ["Smith", "Taylor", "Campbell", "Biggs", "Dupont", "Dubois", "Rosenblum", "Black", "White",
-        "Brown", "Green", "Reed", "Hawkins", "Armstrong", "Pirx", "Donovan", "Kovacs", "Szabo",
-        "Barnes", "Newton", "Langley", "Murdock", "Holmes", "Watson", "Hastings", "King", "MacDonald",
-        "Duke", "Shepard", "Conrad", "Frankenstein", "Potter", "Töpfer", "Sigurdson", "Müller",
-        "Braun", "Schwarz", "Hindenburg", "Einstein", "Fraser", "Jones", "Bond", "Croft",
-        "Carmack", "Ritchie", "McLeod", "Weiss", "Ragnarsson", "Poirot", "Romero", "Hood",
-        "Ferguson", "Mulder", "Scully", "König", "Tesla", "Grünwald",
-        "Freeman", "Calhoun", "Shephard", "Rosenberg", "Rosenfeld", "Cross", "Keller", "Bennet",
-        "Simmons", "Vance", "Kleiner", "Magnusson", "Mossman", "Glacius", "Sabrewulf", "Spinal", "Raptor",
-        "Bear", "Wolf", "Kilgore", "Kurtz", "Lincoln", "McDonald", "Vader", "Kurgan", "Stonewall",
-        "Longstreet", "Lee", "Bishop", "Ash", "Ripley", "Hicks", "Hudson", "Vasquez", "Frost" ];
+    [
+        "Armstrong", "Ash",
+        "Barnes", "Bear", "Bennet", "Biden", "Biggs", "Bishop", "Black", "Bond", "Braun", "Brown", "Bruce",
+        "Calhoun", "Campbell", "Carmack", "Conrad", "Croft", "Cross",
+        "Donovan", "Douglas", "Dubois", "Duke", "Dupont",
+        "Einstein", "Elliot",
+        "Ferguson", "Forbes", "Frankenstein", "Fraser", "Freeman", "Frost",
+        "Gates", "Gilbert", "Glacius", "Graham", "Grant", "Green", "Grün", "Grünwald",
+        "Hamilton", "Hastings", "Hawkins", "Hicks", "Hindenburg", "Holmes", "Hood", "Hudson",
+        "Jobs", "Jones",
+        "Keller", "Kennedy", "Kilgore", "King", "Kleiner", "Kovacs", "König", "Kurgan", "Kurtz",
+        "Langley", "Lee", "Lincoln", "Livingstone", "Longstreet",
+        "MacDonald", "MacGregor", "MacFarlane", "MacMillan", "Magnusson", "Maxwell", "McDonald", "McLeod", "Mossman", "Mulder", "Murdock", "Müller",
+        "Newton",
+        "Pirx", "Poirot", "Potter",
+        "Ragnarsson", "Raptor", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
+        "Sabrewulf", "Schwarz", "Scott", "Scully", "Shepard", "Shephard", "Sigurdson", "Simmons", "Sinclair", "Smith", "Spinal", "Stewart", "Stonewall", "Sutherland",
+        "Szabo",
+        "Taylor", "Tesla", "Töpfer", "Trump",
+        "Vader", "Vasquez", "Vance",
+        "Watson", "Weiss", "White", "Wolf"
+    ];
 
-const elotagok = [ "Dr.", "Prof.", "Sir", "Lord", "Herr" ];
+const elotagok = ["Dr.", "Prof.", "Sir", "Lord", "Herr"];
 
 function GeneraltNev()
 {
