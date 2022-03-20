@@ -1,8 +1,8 @@
 const keresztNevek =
     [
         "Abraham", "Adolf", "Adrian", "Ahmed", "Albert", "Ali", "Arnold", "Arthur",
-        "Barney", "Bernard", "Bill", "Brian",
-        "Charles", "Conan",
+        "Barney", "Bernard", "Bill", "Brian", "Bruce",
+        "Charles", "Chuck", "Conan",
         "David", "Donald",
         "Eli",
         "Fox",
@@ -38,9 +38,9 @@ const vezetekNevek =
         "Keller", "Kennedy", "Kilgore", "King", "Kleiner", "Kovacs", "König", "Kurgan", "Kurtz",
         "Langley", "Lee", "Lincoln", "Livingstone", "Longstreet",
         "MacDonald", "MacGregor", "MacFarlane", "MacMillan", "Magnusson", "Maxwell", "McDonald", "McLeod", "Mossman", "Mulder", "Murdock", "Müller",
-        "Newton",
+        "Newton", "Norris",
         "Pirx", "Poirot", "Potter",
-        "Ragnarsson", "Raptor", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
+        "Ragnarsson", "Rambo", "Raptor", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
         "Sabrewulf", "Schwarz", "Scott", "Scully", "Shepard", "Shephard", "Sigurdson", "Simmons", "Sinclair", "Smith", "Spinal", "Stewart", "Stonewall", "Sutherland",
         "Szabo",
         "Taylor", "Tesla", "Töpfer", "Trump",
@@ -49,13 +49,23 @@ const vezetekNevek =
     ];
 
 const elotagok = ["Dr.", "Prof.", "Sir", "Lord", "Herr"];
+const kozeptagok = ["de", "of", "van", "von"];
 
 function GeneraltNev()
 {
     let keresztNev = keresztNevek[Math.floor(Math.random() * keresztNevek.length)];
     let vezetekNev = vezetekNevek[Math.floor(Math.random() * vezetekNevek.length)];
 
-    let nev = keresztNev + " " + vezetekNev;
+    let nev = "";
+
+    if (Math.random() < 0.2)
+    {
+        nev = keresztNev + " " + kozeptagok[Math.floor(Math.random() * kozeptagok.length)] + " " + vezetekNev;
+    }
+    else
+    {
+        nev = keresztNev + " " + vezetekNev;
+    }
 
     if (Math.random() < 0.2)
     {

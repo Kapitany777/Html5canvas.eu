@@ -38,7 +38,7 @@ const EjszakaJelzok =
 const Szornyek =
     [
         "acélgólemek", "alienek", "androidok",
-        "babók", "baglyok", "bányalovak", "barbárok", "barlanglakók", "békák", "bérgyilkosok", "bérkommentelők", "bigfootok", "bogarak", "borzalmak",
+        "babók", "baglyok", "banyák", "bányalovak", "barbárok", "barlanglakók", "békák", "bérgyilkosok", "bérkommentelők", "bigfootok", "bogarak", "borzalmak",
         "boszorkányok", "botosjetik", "brutális megsemmisítők", "búvárbékák",
         "csápok", "csatagólemek", "csatamajmok", "csimpánzok", "csontvázak", "csótányok", "csupakabrák",
         "denevérek", "droidok", "drónok",
@@ -164,13 +164,13 @@ const Rejtekhelyekben =
 const Jelzok =
     [
         "agyhalott", "agyroggyant", "agyrohasztó", "álcázott", "alkoholista", "anarchista",
-        "baltás", "barbár", "barlangi", "beteges", "bolond", "borzalmas", "borzasztó", "bosszúálló", "brutális", "büdös", "bűzlő",
+        "bakancsos", "baltás", "barbár", "barlangi", "beteges", "bolond", "borzalmas", "borzasztó", "bosszúálló", "brutális", "büdös", "bűzlő",
         "cigarettás", "ciklopi",
         "csernobili",
         "dögletes", "dögsanyarta",
         "édibédi", "elátkozott", "elmebeteg", "elméleti", "élőholt", "eltorzult", "erdei", "eszelős", "eszement", "eszkimó",
         "fej nélküli", "fejszés", "fékevesztett", "féllábú", "fertőzött", "földmélyi",
-        "gázálarcos", "génmanipulált", "génmódosított", "gépesített", "gigantikus", "gonosz",
+        "gázálarcos", "génmanipulált", "génmódosított", "gépesített", "gigantikus", "gonosz", "gumicsizmás",
         "gyanús", "gyüszlött",
         "habzó szájú", "halott", "hatalmas", "hegyi", "hideg", "hónaljmankós",
         "idegen", "indián", "ipari", "ismeretlen", "ittas",
@@ -181,9 +181,9 @@ const Jelzok =
         "ocsmány", "osonó", "őrjöngő", "őrült", "ősi",
         "páncélozott", "pöhös", "pszichopata", "pusztító",
         "radioaktív", "rángatózó", "rémséges", "részeges", "rettenetes", "rituális", "rothadó",
-        "síri", "sötét", "sudribunkó", "sugárfertőzött", "sugárzó",
-        "szemüveges", "szkafanderes", "szörnyű", "szőrös", "szürke",
-        "tahó", "tébolyult", "temetői", "tomboló", "tömegpusztító", "torz", "tudatmanipulált", "tündérharmatos", "tündibündi",
+        "síri", "sötét", "strandpapucsos", "sudribunkó", "sugárfertőzött", "sugárzó",
+        "szandálos", "szemüveges", "szkafanderes", "szörnyű", "szőrös", "szürke",
+        "tahó", "tébolyult", "temetői", "tomboló", "tömegpusztító", "tornacipős", "torz", "tudatmanipulált", "tündérharmatos", "tündibündi",
         "üntyümpüntyüm", "üvöltő",
         "vegyi", "végzetes", "vén", "vénséges", "véres", "vérgonyasztó", "vérivó", "vérszívó", "veszett",
         "zulu"
@@ -477,7 +477,7 @@ const Fegyverekkel =
         "könnyű géppuskával", "kőtörő kalapáccsal", "krikettütővel",
         "lánccal", "láncfűrésszel", "láncos buzogánnyal", "lándzsával", "lángszóróval", "lefűrészelt csövű puskával", "légvédelmi gépágyúval",
         "lézerágyúval", "lézerkarddal", "lézerpisztollyal", "lovagi pallossal",
-        "mankóval", "második világháborús bajonettel", "mesterlövészpuskával", "Molotov-koktéllal",
+        "mankóval", "második világháborús bajonettel", "mesterlövészpuskával", "Molotov-koktéllal", "mordállyal", "muskétával",
         "nehéz csákánnyal", "nehézgéppuskával", "nyeles kézigránáttal",
         "pájszerrel", "pallossal", "Panzerfausttal", "páncélököllel", "páncélrémmel", "permetleves lándzsával", "plazmafegyverrel", "puskával",
         "radiátorcsővel", "rakétavetővel", "rakétával", "repeszgránáttal", "rohampuskával", "rozsdás vascsővel", "RPG-vel",
