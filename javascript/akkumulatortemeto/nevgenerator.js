@@ -11,7 +11,7 @@ const keresztNevek =
         "Isaac",
         "Jack", "Jackson", "James", "Jim", "Joe", "Joel", "John", "Joseph", "Jules", "Jurij",
         "Lawrence", "Leonyid", "Leslie", "Lucas", "Luke",
-        "Martin", "Mesut", "Michael", "Mihail",
+        "Martin", "Mehmet", "Mesut", "Michael", "Mihail",
         "Neil", "Nick", "Nikola",
         "Nyikita",
         "Otto",
@@ -28,7 +28,7 @@ const vezetekNevek =
     [
         "Armstrong", "Ash",
         "Barnes", "Bear", "Bennet", "Biden", "Biggs", "Bishop", "Black", "Bond", "Braun", "Brown", "Bruce",
-        "Calhoun", "Campbell", "Carmack", "Conrad", "Croft", "Cross",
+        "Calhoun", "Campbell", "Carmack", "Conrad", "Croft", "Cross", "Crow",
         "Donovan", "Douglas", "Dubois", "Duke", "Dupont",
         "Einstein", "Elliot",
         "Ferguson", "Forbes", "Frankenstein", "Fraser", "Freeman", "Frost",
@@ -40,12 +40,21 @@ const vezetekNevek =
         "MacDonald", "MacGregor", "MacFarlane", "MacMillan", "Magnusson", "Maxwell", "McDonald", "McLeod", "Mossman", "Mulder", "Murdock", "Müller",
         "Newton", "Norris",
         "Pirx", "Poirot", "Potter",
-        "Ragnarsson", "Rambo", "Raptor", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
+        "Ragnarsson", "Rambo", "Raptor", "Raven", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
         "Sabrewulf", "Schwarz", "Scott", "Scully", "Shepard", "Shephard", "Sigurdson", "Simmons", "Sinclair", "Smith", "Spinal", "Stewart", "Stonewall", "Sutherland",
+        "Sükür",
         "Szabo",
-        "Taylor", "Tesla", "Töpfer", "Trump",
+        "Taylor", "Tesla", "Töpfer", "Trump", "Turan",
         "Vader", "Vasquez", "Vance",
         "Watson", "Weiss", "White", "Wolf"
+    ];
+
+const oregNevek =
+    [
+        "apó",
+        "bá'", "bácsi", "bátya",
+        "tata",
+        "úr"
     ];
 
 const elotagok = ["Dr.", "Prof.", "Sir", "Lord", "Herr"];
@@ -73,4 +82,24 @@ function GeneraltNev()
     }
 
     return nev;
+}
+
+function GeneraltOregNev()
+{
+    let keresztNev = keresztNevek[Math.floor(Math.random() * keresztNevek.length)];
+    let oregNev = oregNevek[Math.floor(Math.random() * oregNevek.length)];
+
+    return keresztNev + " " + oregNev;
+}
+
+function GeneraltMentorNev()
+{
+    if (Math.random() < 0.5)
+    {
+        return GeneraltNev();
+    }
+    else
+    {
+        return GeneraltOregNev();
+    }
 }

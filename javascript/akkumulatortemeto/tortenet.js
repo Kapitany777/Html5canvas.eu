@@ -31,7 +31,7 @@ function TortenetGeneralasa()
     const fohosNeve = GeneraltNev();
     const fohosFoglalkozasa = GetFoglalkozas();
 
-    const mentorNeve = GeneraltNev();
+    const mentorNeve = GeneraltMentorNev();
     const mentorFoglalkozasa = GetFoglalkozas();
 
     const felelosCegNeve = GetVallalatNev();
@@ -49,7 +49,7 @@ function TortenetGeneralasa()
     tortenet += "<p>";
     tortenet += fohosNeve + " puszta életét mentve kénytelen elmenekülni a helyszínről. ";
     tortenet += "Megpróbál elrejtőzni egy " + GetRejtekhelyJelzo() + " " + GetRejtekhelyben() + ", de nincs egyedül. ";
-    tortenet += "Itt lapul az öreg " + mentorNeve + ", a helyi " + mentorFoglalkozasa + " is, akinek szintén sikerült elkerülni a rá leselkedő végzetet. ";
+    tortenet += "Itt " + GetRejtozesModja() + " az öreg " + mentorNeve + ", a helyi " + mentorFoglalkozasa + " is, akinek szintén sikerült elkerülni a rá leselkedő végzetet. ";
     tortenet += fohosNeve + " megtudja az öregtől, hogy az őket sújtó katasztrófáért " + Nevelo(GetTermeket()) + " előállító " + felelosCegNeve + " a felelős. ";
     tortenet += mentorNeve + " megpróbálja rábeszélni társát, hogy pusztítsák el az ellenséget, de ";
     tortenet += fohosNeve + " nem osztja az öreg lelkesedését, biztonságosabbnak véli, ha továbbra is rejtekhelyükön maradnak. ";

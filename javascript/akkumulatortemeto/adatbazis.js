@@ -41,7 +41,7 @@ const Szornyek =
         "babók", "baglyok", "banyák", "bányalovak", "barbárok", "barlanglakók", "békák", "bérgyilkosok", "bérkommentelők", "bigfootok", "bogarak", "borzalmak",
         "boszorkányok", "botosjetik", "brutális megsemmisítők", "búvárbékák",
         "csápok", "csatagólemek", "csatamajmok", "csimpánzok", "csontvázak", "csótányok", "csupakabrák",
-        "denevérek", "droidok", "drónok",
+        "denevérek", "dinoszauruszok", "droidok", "drónok",
         "elefántok", "előemberek", "élőholtak",
         "farkasemberek", "farkasok", "fremenek",
         "gengszterek", "gerillák", "gibbonok", "goblinok", "godzillák", "gólemek", "gorillák",
@@ -147,7 +147,7 @@ const Rejtekhelyekben =
         "gyárban", "gyártelepen", "gyümölcsösben",
         "házban", "hegyen", "hodályban",
         "kantelepen", "kápolnában", "kastélyban", "katakombában", "kilátóban", "kocsmában", "kolostorban", "kőbányában", "kriptában", "kunyhóban", "kútban",
-        "légibázison", "ligetben", "lövészárokban",
+        "légibázison", "ligetben", "lőszerraktárban", "lövészárokban",
         "magaslesen", "malomban", "menedékházban", "mocsárban", "múzeumban",
         "olajfúrótornyon", "óvóhelyen",
         "őrházban", "őrtoronyban",
@@ -159,6 +159,14 @@ const Rejtekhelyekben =
         "ufóbázison", "útőrházban", "úttörőházban", "üvegházban",
         "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótoronyban", "vízimalomban",
         "zónában"
+    ];
+
+const RejtozesModja =
+    [
+        "bujdokol", "bujdosik", "bujkál",
+        "lapít", "lapul",
+        "rejtőzik", "rejtőzködik",
+        "sunnyog"
     ];
 
 const Jelzok =
@@ -181,7 +189,7 @@ const Jelzok =
         "ocsmány", "osonó", "őrjöngő", "őrült", "ősi",
         "páncélozott", "pöhös", "pszichopata", "pusztító",
         "radioaktív", "rángatózó", "rémséges", "részeges", "rettenetes", "rituális", "rothadó",
-        "síri", "sötét", "strandpapucsos", "sudribunkó", "sugárfertőzött", "sugárzó",
+        "síri", "sötét", "strandpapucsos", "sudribunkó", "sugárfertőzött", "sugárzó", "sunnyogó",
         "szandálos", "szemüveges", "szkafanderes", "szörnyű", "szőrös", "szürke",
         "tahó", "tébolyult", "temetői", "tomboló", "tömegpusztító", "tornacipős", "torz", "tudatmanipulált", "tündérharmatos", "tündibündi",
         "üntyümpüntyüm", "üvöltő",
@@ -229,25 +237,25 @@ const Foglalkozasok =
         "bádogos", "bakter", "bakteriológus", "bányamérnök", "bányász", "barbár", "barlanglakó", "békebíró",
         "belső ellenőr", "bérgyilkos", "bérkommentelő", "berserker", "bíboros", "biciklis", "bicikliőr",
         "biztonsági őr", "blogger", "bölcsész", "bolti eladó", "borász", "bíró", "bombaszakértő", "borbély", "botanikus", "buherátor", "búvár",
-        "ceruzás", "CIA-ügynök", "cimbalmos", "citerás", "cukrász",
+        "ceruzás", "CIA-ügynök", "cimbalmos", "citerás", "cowboy", "cukrász",
         "csatornatisztító", "csillagász", "csősz",
         "demagóg", "dervis", "despota", "diszpécser", "DJ", "docens",
         "éjjeliőr", "elektrotechnikus", "elemző", "élmunkás", "elvtárs", "erdei rabló", "erdész", "esztergályos",
         "farmer", "favágó", "FBI-ügynök", "feltaláló", "festő", "filozófus", "firkász", "fizikus", "fogadós", "fogorvos", "fogtechnikus", "földmérő", "földműves",
         "főpap", "futballsztár", "füvesember",
-        "géppuskás", "gerilla", "gladiátor", "gombaszakértő", "gondnok", "gránátos",
+        "géppuskás", "gerilla", "gladiátor", "gombaszakértő", "gondnok", "gránátos", "gumitalpú",
         "gyalogmunkás", "gyalogos", "gyepmester", "gyógytornász",
         "hacker", "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegedűs", "hegesztő", "hegyirabló", "hóhér", "hurrikánkineziológus",
         "idegenvezető", "idegsebész", "informatikus", "inkvizítor", "irattáros", "író",
         "javasember", "jogász",
-        "kalauz", "kantelep-vezető", "kárpitos", "kazánfűtő", "kazánkovács", "kém", "kéményseprő", "kertész", "kidobóember", "kintornás",
+        "kalauz", "kantelep-vezető", "kárpitos", "kazánfűtő", "kazánkovács", "kém", "kéményseprő", "kertész", "kidobóember", "kintornás", "klímarettegő",
         "kocsmáros", "kókánymester", "kommandós", "konspiratológus", "kontroller", "kontár",
         "kovács", "kántor", "kőműves", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körhintás", "körzeti megbízott", "körzeti orvos", "kubikos",
         "kuruzsló", "kútfúró", "kutató",
         "laboráns", "lakatos", "lakodalmas zenész", "láncdohányos", "légiforgalmi irányító", "légvédelmi tüzér", "lelkész", "levéltáros", "likvidátor", "logopédus",
         "maffiózó", "magánnyomozó", "matematikus", "matróz", "méhész", "mesterlövész", "merénylő", "mérnök", "meteorológus", "motoros hobó", "mozdonyvezető",
         "mozigépész", "műszerész", "muzeológus",
-        "nanotechnológus", "nagybőgős", "nindzsa",
+        "nanotechnológus", "nagybőgős", "népi táncos", "nindzsa", "növénytermesztő gyalogos",
         "nyomozó", "nyugalmazott admirális", "nyugalmazott ezredes", "nyugalmazott őrnagy", "nyugalmazott tengernagy",
         "Obersturmführer", "okkultista", "oknyomozó újságíró", "operátor", "orkológus", "ősember", "őstermelő", "összeesküvő",
         "páncélgránátos", "pap", "paraszt", "parkőr", "partizán", "patikus", "pék", "pénztáros", "pincemunkás", "pizzafutár", "PLC programozó",
@@ -302,7 +310,7 @@ const MilyenTelepulesek =
         "elátkozott", "elfeledett", "elhagyatott", "ezer éves",
         "gyéren lakott",
         "isten háta mögötti",
-        "kihalt", "kis", "ködös",
+        "kietlen", "kihalt", "kis", "ködös",
         "mocsaras",
         "ősi",
         "szeles", "szmogos",
@@ -420,11 +428,13 @@ const Termekeket =
         "harci gázokat",
         "ideggázokat", "integrált áramköröket", "izotópokat",
         "kemtrélt", "kertitörpéket", "kísértetkondenzátumot", "klónokat", "kristályokat", "kullancsirtószert",
+        "lőszert",
         "mutáns baktériumokat", "műtrágyát",
         "növényvédőszereket", "nyálas sorozatokat", "nyugtatókat",
         "plutóniumot",
+        "robbanóanyagot",
         "szteroidokat",
-        "táplálékkiegészítőket", "természetazonos aromát", "tömegpusztító fegyvereket", "traktorokat",
+        "táplálékkiegészítőket", "természetazonos aromát", "TNT-t", "tömegpusztító fegyvereket", "traktorokat", "trotilt",
         "vegyifegyvereket", "vérnyomáscsökkentőket", "vírusokat"
     ];
 
@@ -555,7 +565,7 @@ const Szuperfegyvereket =
         "neutronbombát", "nukleáris csapásmérő fegyvert",
         "óriási napalmbombát",
         "robotrepülőgépet",
-        "taktikai atomgránátot", "termonukleáris fegyvert", "több tonnás rombolóbombát",
+        "taktikai atomgránátot", "termobárikus fegyvert", "termonukleáris fegyvert", "több tonnás rombolóbombát",
         "vákuumbombát"
     ];
 
@@ -602,6 +612,11 @@ function GetRejtekhelyJelzo()
 function GetRejtekhelyben()
 {
     return GetSzo(Rejtekhelyekben);
+}
+
+function GetRejtozesModja()
+{
+    return GetSzo(RejtozesModja);
 }
 
 function GetJelzo()
