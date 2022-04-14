@@ -24,7 +24,9 @@ include_once("page.php");
                     Az oldalt készítette: Kapitány (Török Viktor)<br>
                     <a href="https://www.linkedin.com/in/viktor-t%C3%B6r%C3%B6k-65b7a067/" target="_blank">LinkedIn profile</a><br>
                     <a href="https://github.com/Kapitany777" target="_blank">GitHub profile</a><br>
-                    <a href="http://www.braincluster.eu/" target="_blank">Brain Cluster Inc. - blog a programozásról</a><br>
+                    <a href="https://profile.codersrank.io/user/kapitany777" target="_blank">CodersRank profile</a><br>
+                    <a href="https://stackoverflow.com/users/12930552/kapitany" target="_blank">Stack Overflow profile</a><br>
+                    <a href="https://www.braincluster.eu/" target="_blank">Brain Cluster Inc. - blog a programozásról</a><br>
                     E-mail cím: <a href="mailto:kapitany@lidercfeny.hu">kapitany@lidercfeny.hu</a>
                 </p>
             </div>
