@@ -41,6 +41,25 @@ include_once("page.php");
                 
                 <?php Back(); ?>
             </div>
+
+            <div class="text">
+                <h2>Lidércgyepűi Odamondós</h2>
+
+                <p>
+                    Kedves Olvasónk!<br>
+                    Ezen új kezdeményezés célja csakis az igazság kendőzetlen kimondása.
+                    Ebből következően nem tartjuk valószínűnek, hogy a régió korrupt, bűnöző életmódot folytató
+                    politikusai körében népszerűek leszünk, de annál inkább reméljük, hogy az általuk átvert, kizsákmányolt,
+                    nyomorba taszított lakosság értékeli fontos és hiánypótló tevékenységünket.
+                </p>
+
+                <p>
+                    Felelős szerkesztő: Nagyagárdi-Kis Ödön<br>
+                    Szerkesztőség: Panyócaretek, Tanya 27., B épület.
+                </p>
+
+                <a href="download/Lidercgyepui_odamondos.pdf">A Lidércgyepűi Odamondós első számának letöltése PDF formátumban</a>
+            </div>
         </div>
         
         <?php PageFooter(); ?>
