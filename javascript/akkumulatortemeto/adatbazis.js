@@ -240,10 +240,10 @@ const Foglalkozasok =
         "ceruzás", "CIA-ügynök", "cimbalmos", "citerás", "cowboy", "cukrász",
         "csatornatisztító", "csillagász", "csősz",
         "demagóg", "dervis", "despota", "diszpécser", "DJ", "docens",
-        "éjjeliőr", "elektrotechnikus", "elemző", "élmunkás", "elvtárs", "erdei rabló", "erdész", "esztergályos",
+        "éjjeliőr", "elektrotechnikus", "elemző", "élmunkás", "élsportoló", "elvtárs", "erdei rabló", "erdész", "esztergályos",
         "farmer", "favágó", "FBI-ügynök", "feltaláló", "festő", "filozófus", "firkász", "fizikus", "fogadós", "fogorvos", "fogtechnikus", "földmérő", "földműves",
         "főpap", "futballsztár", "füvesember",
-        "gépész", "géplakatos", "géppuskás", "gerilla", "gladiátor", "gombaszakértő", "gondnok", "gránátos", "gumitalpú",
+        "gengszter", "gépész", "géplakatos", "géppuskás", "gerilla", "gladiátor", "gombaszakértő", "gondnok", "gránátos", "gumitalpú",
         "gyalogmunkás", "gyalogos", "gyárigazgató", "gyepmester", "gyógytornász",
         "hacker", "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegedűs", "hegesztő", "hegyirabló", "hóhér", "hurrikánkineziológus", "hűtőgépész",
         "idegenvezető", "idegsebész", "informatikus", "inkvizítor", "irattáros", "író",
@@ -252,7 +252,8 @@ const Foglalkozasok =
         "kocsmáros", "kókánymester", "kommandós", "konspiratológus", "kontroller", "kontár",
         "kovács", "kőműves", "könyvelő", "koporsókészítő", "kórboncnok", "könyvtáros", "körhintás", "körzeti megbízott", "körzeti orvos", "köszörűs", "közgazdász",
         "kubikos", "kuruzsló", "kútfúró", "kutató",
-        "laboráns", "lakatos", "lakodalmas zenész", "láncdohányos", "légiforgalmi irányító", "légvédelmi tüzér", "lelkész", "levéltáros", "likvidátor", "logopédus",
+        "laboráns", "lakatos", "lakodalmas zenész", "láncdohányos", "légiforgalmi irányító", "légvédelmi tüzér", "laposföld hívő",
+        "lelkész", "levéltáros", "likvidátor", "logopédus",
         "maffiózó", "magánnyomozó", "matematikus", "matróz", "méhész", "mesterlövész", "merénylő", "mérnök", "meteorológus", "motoros hobó", "mozdonyvezető",
         "mozigépész", "műszerész", "muzeológus",
         "nanotechnológus", "nagybőgős", "népi táncos", "nindzsa", "növénytermesztő gyalogos",
@@ -260,17 +261,18 @@ const Foglalkozasok =
         "Obersturmführer", "okkultista", "oknyomozó újságíró", "operátor", "orkológus",
         "öltözőőr", "ősember", "őstermelő", "összeesküvő",
         "páncélgránátos", "pap", "paraszt", "parkőr", "partizán", "patikus", "pék", "pénztáros", "pincemunkás", "pizzafutár", "PLC programozó",
-        "politikus", "politológus", "portás", "postás",
+        "polihisztor", "politikus", "politológus", "portás", "porszívóügynök", "postás",
         "párttag", "presbiter", "professzor", "programozó", "projektmérnök", "projektvezető", "pszichológus", "püspök",
-        "radarkezelő", "raktárvezető", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendszerelemző", "rendszergazda", "repülésirányító", "rocker",
+        "radarkezelő", "raktárvezető", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendőrfőnök", "rendszerelemző", "rendszergazda", "repülésirányító", "rocker",
         "rohamosztagos", "rohamrendőr", "rohamutász", "röntgenorvos",
         "sajtmester", "sámán", "séf", "sekrestyés", "seriff", "sírásó", "sportoló", "statiszta",
         "szabó", "szabotőr", "szakács", "szakszervezeti vezető", "szamuráj", "szerzetes", "szeszkazán", "szobafestő", "szociálpolitikus", "szociológus", "szonárkezelő",
+        "sztahanovista",
         "táltos", "tanár", "tanársegéd", "targoncás", "tarlófelelős", "taxisofőr", "technikus", "téemkás", "tehenész", "telepvezető", "temetőcsősz", "tengeralattjárós",
         "térképész", "testőr", "tetőfedő", "titkosügynök", "toronyőr", "traktoros", "trombitás", "tróger", "tüzér", "tűzszerész",
         "udvaros", "ufológus", "ügynök", "ügyvéd", "újságíró", "űrhajós", "űrkutató", "űrgárdista", "urológus", "utazó ügynök", "utcaseprő", "útonálló",
         "üzemgazdász", "üzemmérnök",
-        "vadász", "vadászpilóta", "vadőr", "vagyonőr", "váltókezelő", "vasutas", "vegyész", "vérbíró", "vietkong", "világítótorony-őr", "villanyszerelő", "virológus",
+        "vadász", "vadászpilóta", "vadőr", "vagyonőr", "váltókezelő", "varázsló", "vasutas", "vegyész", "vérbíró", "vietkong", "világítótorony-őr", "villanyszerelő", "virológus",
         "zoológus", "zöldségtermesztő", "zugfirkász", "zugügyvéd"
     ];
 
@@ -285,7 +287,7 @@ const FoglalkozasPrefixek =
         "ipari ",
         "junior ",
         "képesített ", "kiégett ", "kiemelt ", "kísérleti ", "kreatív ", "különleges ", "külsős ",
-        "megbízott ", "mester", "mezőgazdasági ", "műkedvelő ",
+        "megbízott ", "mester", "mezőgazdasági ", "múzeumi", "műkedvelő ",
         "nyugalmazott ",
         "okleveles ", "operatív ",
         "rehabilitált ", "részmunkaidős ",
@@ -423,8 +425,9 @@ const EroszakosCselekedetek =
 
 const Termekeket =
     [
-        "akkumulátorokat", "altatókat", "antibiotikumokat", "azbesztpalát",
+        "akkumulátorokat", "altatókat", "antianyagot", "antibiotikumokat", "azbesztpalát",
         "baktériumokat", "biológiai fegyvereket",
+        "doppingszereket",
         "élelmiszerszínezéket",
         "génmódosított kukoricát", "génmódosított szóját",
         "gyógyszereket", "gyomirtókat",
@@ -434,8 +437,10 @@ const Termekeket =
         "lőszert",
         "mutáns baktériumokat", "műtrágyát",
         "növényvédőszereket", "nyálas sorozatokat", "nyugtatókat",
+        "okoscimbalmot",
         "plutóniumot",
         "robbanóanyagot",
+        "sötét anyagot",
         "szteroidokat",
         "táplálékkiegészítőket", "természetazonos aromát", "TNT-t", "tömegpusztító fegyvereket", "traktorokat", "trotilt",
         "vegyifegyvereket", "vérnyomáscsökkentőket", "vírusokat"
@@ -487,7 +492,7 @@ const Fegyverekkel =
         "hangtompítós pisztollyal", "hosszú késsel", "hosszú szuronnyal", "hosszúíjjal", "husánggal", "huszárkarddal",
         "ideggázzal",
         "Kalasnyikovval", "kampósbottal", "kapával", "karabéllyal", "karddal", "kaszával", "kézigránáttal", "kiegyenesített kaszával", "konyhakéssel",
-        "könnyű géppuskával", "kőtörő kalapáccsal", "krikettütővel",
+        "kőbaltával", "könnyű géppuskával", "kőtörő kalapáccsal", "krikettütővel",
         "lánccal", "láncfűrésszel", "láncos buzogánnyal", "lándzsával", "lángszóróval", "lefűrészelt csövű puskával", "légvédelmi gépágyúval",
         "lézerágyúval", "lézerkarddal", "lézerpisztollyal", "lovagi pallossal",
         "mankóval", "második világháborús bajonettel", "mesterlövészpuskával", "Molotov-koktéllal", "mordállyal", "muskétával",
@@ -498,7 +503,7 @@ const Fegyverekkel =
         "szablyával", "szakócával", "számszeríjjal", "szamurájkarddal", "szekercével", "szeneslapáttal", "szívlapáttal", "szögekkel kivert cséphadaróval", "szöges buzogánnyal",
         "szónikus ágyúval", "szónikus puskával", "szuronnyal",
         "tőrrel", "törött sörösüveggel",
-        "vadászpuskával", "vadásztőrrel", "vascsővel", "vasvillával", "villáskulccsal", "viperával",
+        "vadászpuskával", "vadásztőrrel", "vascsővel", "vasrúddal", "vasvillával", "villáskulccsal", "viperával",
         "Winchesterrel"
     ];
 
@@ -555,7 +560,7 @@ const Pusztulasok =
 const Szuperfegyvereket =
     [
         "1 megatonnás légibombát",
-        "atombombát", "atomrobbanófejes robotrepülőgépet",
+        "antianyagbombát", "atombombát", "atomrobbanófejes robotrepülőgépet",
         "bunkerrombolót",
         "Cár-bombát",
         "fissziós bombát",
