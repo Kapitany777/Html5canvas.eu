@@ -29,7 +29,7 @@ const vege =
   "csehi",
   "dinnyés", "diós",
   "fa", "falu", "falva", "fok", "fő", "föld", "földe", "füred", "fürdő",
-  "galambos", "gerendás", "grád",
+  "galambos", "gány", "gerendás", "grád",
   "gyarmat", "gyepű", "györk",
   "hagymás", "halma", "halom", "harkány", "ház", "háza", "hegy", "hely", "hídvég",
   "iván",

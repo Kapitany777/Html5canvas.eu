@@ -1,4 +1,4 @@
-var elemek =
+const elemek =
 [ "alsó", "apát", "árok", "ásott", "atom", "azbeszt",
   "babetta", "bács", "bádog", "balaton", "balta", "baranya", "béka", "béla", "berek", "bivaly", "bodza", "boldog", "boros", "borzasztó", "botos", "büdös",
   "csany", "csáp", "csillag", "csont",
@@ -22,14 +22,14 @@ var elemek =
   "vas", "vásár", "veres", "véres", "virág", "víz", "vörös",
   "zala", "zombi", "zóna" ];
 
-var vege =
+const vege =
 [ "akna", "alja", "almás", "apáti", "asszonyfa",
   "bánya", "barackos", "barcika", "batta", "bél", "berény", "berenye", "bodzás", "bög", "bogdány",
   "citromos",
   "csehi",
   "dinnyés", "diós",
   "fa", "falu", "falva", "fok", "fő", "föld", "földe", "füred", "fürdő",
-  "galambos", "gerendás", "grád",
+  "galambos", "gány", "gerendás", "grád",
   "gyarmat", "gyepű", "györk",
   "hagymás", "halma", "halom", "harkány", "ház", "háza", "hegy", "hely", "hídvég",
   "iván",
@@ -55,17 +55,17 @@ function capitalizeFirstLetter(text)
 
 function VarosnevGeneralasa()
 {
-    var varosnev = "";
-    
-    var elemszam = Math.floor(Math.random() * 3) + 1;
-    
-    for (var i = 0; i < elemszam; i++)
-    {
-        varosnev += elemek[Math.floor(Math.random() * elemek.length)];
-    }
-    
-    varosnev += vege[Math.floor(Math.random() * vege.length)];
-    
-    return capitalizeFirstLetter(varosnev);
+  let varosnev = "";
+
+  let elemszam = Math.floor(Math.random() * 3) + 1;
+
+  for (let i = 0; i < elemszam; i++)
+  {
+    varosnev += elemek[Math.floor(Math.random() * elemek.length)];
+  }
+
+  varosnev += vege[Math.floor(Math.random() * vege.length)];
+
+  return capitalizeFirstLetter(varosnev);
 }
 
