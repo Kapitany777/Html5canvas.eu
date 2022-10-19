@@ -173,6 +173,18 @@ include_once("page.php");
                     <a href="demo_favicc.php">Egy új favicc generálása...</a>
                 </p>
             </div>
+
+            <div class="demo">
+                <h3>Kórság-generátor</h3>
+
+                <p>
+                    Egy madlib program, melynek segítségével ijesztő betegségneveket lehet generálni.
+                </p>
+
+                <p>
+                    <a href="demo_korsagok.php">Egy új kórság generálása...</a>
+                </p>
+            </div>
         </div>
         
         <?php PageFooter(); ?>
