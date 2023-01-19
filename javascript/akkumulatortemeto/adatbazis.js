@@ -37,7 +37,7 @@ const EjszakaJelzok =
 
 const Szornyek =
     [
-        "acélgólemek", "alienek", "androidok",
+        "acélgólemek", "alienek", "alkoholisták", "androidok",
         "babók", "baglyok", "banyák", "bányalovak", "barbárok", "barlanglakók", "békák", "bérgyilkosok", "bérkommentelők", "bigfootok", "bogarak", "borzalmak",
         "boszorkányok", "botosjetik", "brutális megsemmisítők", "búvárbékák",
         "csápok", "csatagólemek", "csatamajmok", "csimpánzok", "csontvázak", "csótányok", "csupakabrák",
@@ -97,7 +97,7 @@ const Helyekbol =
         "malomból", "mélyből", "mélyűrből", "menedékházból", "mocsárból",
         "pincéből", "piramisból",
         "sírból", "sötétségből",
-        "szigetről",
+        "szeszfőzdéből", "szigetről",
         "temetőből", "toronyból", "turistaházból",
         "uránbányából",
         "világítótoronyból"
@@ -120,7 +120,7 @@ const Helyekben =
         "pincében", "piramisban", "prérin",
         "radarállomáson", "romkastélyban",
         "sírban", "sötétségben",
-        "szélmalomban", "szigeten",
+        "szélmalomban", "szeszfőzdében", "szigeten",
         "temetőben", "templomban", "tömegsírban", "turistaházban",
         "uránbányában", "utcán",
         "városban", "világítótoronyban", "vízimalomban"
@@ -154,7 +154,7 @@ const Rejtekhelyekben =
         "parkolóban", "pincében", "piramisban",
         "radarállomáson", "rakétasilóban", "raktárban", "repülőtéren", "rúdüzemben",
         "sírban",
-        "szélmalomban", "szénbányában", "szigeten", "szivattyútelepen",
+        "szélmalomban", "szénbányában", "szeszfőzdében", "szigeten", "szivattyútelepen",
         "tanyán", "tehenészetben", "tengeralattjáró-bázison", "temetőben", "templomban", "templomromban", "traktorgyárban", "turistaházban",
         "ufóbázison", "útőrházban", "úttörőházban", "üvegházban",
         "vadászházban", "vasúti megállóban", "vasúti őrházban", "vasútállomáson", "várban", "világítótoronyban", "vízimalomban",
@@ -201,6 +201,7 @@ const UndoritoAnyagokat =
     [
         "gennyes maradványokat", "gennyet",
         "heknyát",
+        "koszt",
         "port",
         "retket",
         "sarat", "sugárzó izotópot", "szennyet", "szutykot",
@@ -403,7 +404,7 @@ const EroszakSzervezetTagjai =
         "lángszórósai", "légelhárítói", "lövészei",
         "mesterlövészei",
         "páncélgránátosai", "páncélosai", "pribékjei",
-        "rohamcsapatai", "rohamosztagosai", "rohamutászai",
+        "rohamcsapatai", "rohamrendőrei", "rohamosztagosai", "rohamutászai",
         "szuperkatonái",
         "tüzérei", "tűzszerészei",
         "ügynökei",
@@ -458,7 +459,7 @@ const Cegvezetok =
         "főkönyvelő", "főosztályvezető",
         "gazdasági igazgató",
         "igazgató",
-        "K+F vezető",
+        "K+F vezető", "KAM",
         "marketinges", "művezető",
         "osztályvezető",
         "ügyvezető igazgató", "üzemvezető",
