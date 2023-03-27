@@ -40,7 +40,7 @@ const vezetekNevek =
         "MacDonald", "MacGregor", "MacFarlane", "MacMillan", "Magnusson", "Matrelli", "Maxwell", "McDonald", "McLeod", "Mossman", "Mulder", "Murdock", "Müller",
         "Newton", "Norris",
         "Pirx", "Poirot", "Potter",
-        "Ra", "Ragnarsson", "Rambo", "Raptor", "Raven", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
+        "Ra", "Ragnarsson", "Rambo", "Raptor", "Rata", "Raven", "Reed", "Ripley", "Ritchie", "Romero", "Rosenberg", "Rosenblum", "Rosenfeld", "Ross",
         "Sabrewulf", "Sakamoto", "Schwarz", "Scott", "Scully", "Shepard", "Shephard", "Sigurdson", "Simmons", "Sinclair", "Skywalker", "Smith", "Solo",
         "Spinal", "Stewart", "Stonewall", "Sutherland",
         "Sükür",
