@@ -16,7 +16,7 @@ const Fonevek =
         "nyagóc",
         "orvlövész",
         "öregember",
-        "partizán", "patkány", "pincemunkás", "plazmagömb", "pusztulás",
+        "partizán", "patkány", "pincemunkás", "plazmagömb", "plébános", "pusztulás",
         "rém", "rémtett", "rémület", "rettenet", "rom", "rothadás",
         "sintér", "sír", "sírrabló", "sötétség", "suttogás", "szellem", "szörny", "szörnyeteg",
         "tél", "temető", "templom", "terminátor", "tömeggyilkos", "tömegsír", "tudós",
@@ -55,7 +55,7 @@ const Szornyek =
         "nazgulok", "nekromanták", "nindzsák", "nünükék",
         "nyehőcék",
         "ogrék", "okkultisták", "orángutánok", "ordasok", "óriások", "óriáspókok", "orkok", "ősemberek",
-        "partizánok", "patkányok", "plazmagömbök", "pókok", "politikusok", "predátorok",
+        "partizánok", "patkányok", "piktek", "plazmagömbök", "pókok", "politikusok", "predátorok",
         "rapperek", "rémhírterjesztők", "robotok", "rohamosztagosok",
         "sámánok", "sárkányok",
         "szakemberek", "szamurájok", "szellemek", "szeparatisták", "szeszkazánok", "szőrállatok", "szörnyetegek", "szőrös büfögők",
@@ -129,27 +129,32 @@ const Helyekben =
 
 const RejtekhelyJelzok =
     [
+        "düledező",
         "elátkozott", "elfeledett", "elhagyatott",
+        "gazos",
         "hideg",
         "isten háta mögötti",
         "kísértetjárta", "közeli",
-        "ősi"
+        "ősi", "összedőlt",
+        "romos",
+        "távoli",
+        "világtól elzárt", "világvégi"
     ];
 
 const Rejtekhelyekben =
     [
         "acélbunkerben", "akkumulátortemetőben", "aknában", "alagútban", "atombunkerben", "atomerőműben", "azbesztpalagyárban",
-        "bányában", "barakképületben", "barlangban", "bázison", "betonbunkerben", "bokorban", "borospincében", "bunkerben",
+        "bányában", "barakképületben", "barlangban", "bázison", "betonbunkerben", "bokorban", "bombagyárban", "borospincében", "bunkerben",
         "csárdában", "csatornában", "csónakházban", "csőszkunyhóban",
         "dögtelepen",
         "elmegyógyintézetben", "erdészházban", "erdőben", "erőműben",
         "faházban", "FEMA-táborban", "földalatti bázison", "fóliasátorban",
-        "gabonasilóban", "gátőrházban",
+        "gabonasilóban", "gátőrházban", "gépgyárban",
         "gyárban", "gyártelepen", "gyümölcsösben",
         "házban", "hegyen", "hodályban",
         "kantelepen", "kápolnában", "kastélyban", "katakombában", "kilátóban", "kocsmában", "kolostorban", "kőbányában", "kriptában", "kunyhóban", "kútban",
         "légibázison", "ligetben", "lőszerraktárban", "lövészárokban",
-        "magaslesen", "malomban", "menedékházban", "mocsárban", "múzeumban",
+        "magaslesen", "malomban", "menedékházban", "mocsárban", "múzeumban", "műtrágyagyárban",
         "olajfúrótornyon", "óvóhelyen",
         "őrházban", "őrtoronyban",
         "parkolóban", "pincében", "piramisban",
@@ -265,7 +270,7 @@ const Foglalkozasok =
         "Obersturmführer", "okkultista", "oknyomozó újságíró", "operátor", "orkológus",
         "öltözőőr", "ősember", "őstermelő", "összeesküvő",
         "páncélgránátos", "pap", "paraszt", "parkőr", "partizán", "patikus", "pék", "pénztáros", "pincemunkás", "pizzafutár", "PLC programozó",
-        "polihisztor", "politikus", "politológus", "portás", "porszívóügynök", "postás",
+        "plébános", "polihisztor", "politikus", "politológus", "portás", "porszívóügynök", "postás",
         "párttag", "presbiter", "professzor", "programozó", "projektmérnök", "projektvezető", "pszichológus", "püspök",
         "radarkezelő", "raktárvezető", "rapper", "rapsztár", "recepciós", "régész", "rendőr", "rendőrfőnök", "rendszerelemző", "rendszergazda", "repülésirányító", "rocker",
         "rohamosztagos", "rohamrendőr", "rohamutász", "röntgenorvos",
@@ -323,7 +328,7 @@ const MilyenTelepulesek =
         "mocsaras",
         "ősi",
         "sivatagos",
-        "szeles", "szmogos",
+        "szeles", "sziklás", "szmogos",
         "vidéki"
     ];
 
@@ -332,7 +337,7 @@ const Telepulesek =
         "agyagsivatagban",
         "bányatelepen",
         "dombon",
-        "faluban", "falucskában", "félszigeten",
+        "fácántelepen", "faluban", "falucskában", "félszigeten",
         "gátőrházban", "gyártelepen",
         "hegyen", "hegyvidéken", "homoksivatagban",
         "jégmezőn",
@@ -340,7 +345,7 @@ const Telepulesek =
         "lakótelepen", "lápvidéken",
         "mocsárvidéken",
         "nagyközségben", "nagyvárosban",
-        "pusztaságban",
+        "pulykatelepen", "pusztaságban",
         "radarállomáson", "rakétabázison",
         "sivatagban", "sósivatagban",
         "szélmalomban", "szigeten", "sziklasivatagban", "szivattyútelepen",
