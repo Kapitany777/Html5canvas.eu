@@ -1,27 +1,28 @@
 const keresztNevek =
     [
-        "Abraham", "Adolf", "Adrian", "Ahmed", "Albert", "Ali", "Arnold", "Arthur",
-        "Barney", "Bernard", "Bill", "Brian", "Bruce", "Bruno",
+        "Abraham", "Adolf", "Adrian", "Ahmed", "Albert", "Alekszej", "Ali", "Anatolij", "Anton", "Arnold", "Arthur",
+        "Barney", "Bernard", "Bill", "Boris", "Brian", "Bruce", "Bruno",
         "Cal", "Charles", "Chuck", "Conan",
-        "Darth", "David", "Don", "Donald",
-        "Eli",
+        "Darth", "David", "Dimitrij", "Don", "Donald",
+        "Eduard", "Eli",
         "Fox",
         "Gordon", "Gregory",
         "Han", "Hans", "Harry", "Heinrich", "Henri", "Hercule", "Hermann",
-        "Isaac",
+        "Igor", "Isaac",
         "Jack", "Jackson", "James", "Jim", "Joe", "Joel", "John", "Joseph", "Jules", "Jurij",
         "Lawrence", "Leonyid", "Leslie", "Lucas", "Luke",
-        "Martin", "Mehmet", "Mesut", "Michael", "Mihail",
+        "Martin", "Maxim", "Mehmet", "Mesut", "Michael", "Mihail",
         "Neil", "Nick", "Nigel", "Nikola",
         "Nyikita",
-        "Otto",
+        "Oleg", "Otto",
         "Paul", "Peter",
         "Ragnar", "Richard", "Robert", "Robin", "Ron",
         "Sherlock", "Sidhe", "Steve", "Stuart",
         "Szergej",
-        "Tobias", "Tom", "Tony", "Travis", "Tse", "Tyler",
+        "Timur", "Tobias", "Tom", "Tony", "Travis", "Tse", "Tyler",
         "Vaszilij", "Vlagyimir", "Victor", "Vincent",
-        "Wallace", "Walter", "Wayne", "Wernher", "Wilhelm", "William"
+        "Wallace", "Walter", "Wayne", "Wernher", "Wilhelm", "William",
+        "Yegor"
     ];
 
 const vezetekNevek =
