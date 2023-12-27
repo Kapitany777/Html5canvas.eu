@@ -307,7 +307,7 @@ const FoglalkozasPrefixek =
         "rehabilitált ", "részmunkaidős ",
         "segéd", "senior ", "speciális ", "stratégiai ",
         "szak",
-        "tolólapos",
+        "tolólapos ",
         "vezér", "vezető "
     ];
 
