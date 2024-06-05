@@ -37,21 +37,21 @@ const EjszakaJelzok =
 
 const Szornyek =
     [
-        "acélgólemek", "alienek", "alkoholisták", "alligátorok", "androidok",
-        "babók", "baglyok", "banyák", "bányalovak", "bányarémek", "barbárok", "barlanglakók", "behemótok", "békák", "bérgyilkosok", "bérkommentelők", "bigfootok",
+        "acélgólemek", "agyaggólemek", "alienek", "alkoholisták", "alligátorok", "androidok",
+        "bábák", "babók", "baglyok", "banyák", "bányalovak", "bányarémek", "barbárok", "barlanglakók", "behemótok", "békák", "bérgyilkosok", "bérkommentelők", "bigfootok",
         "biorobotok", "bogarak", "borzalmak",
         "boszorkányok", "botosjetik", "brutális megsemmisítők", "búvárbékák",
         "csápok", "csatagólemek", "csatamajmok", "csimpánzok", "csontvázak", "csótányok", "csupakabrák",
-        "denevérek", "dinoszauruszok", "droidok", "drónok",
+        "denevérek", "dinoszauruszok", "droidok", "drónok", "dzsinnek",
         "elefántok", "előemberek", "élőholtak",
-        "farkasemberek", "farkasok", "fremenek",
+        "farkasemberek", "farkasok", "fémemberek", "fremenek",
         "gengszterek", "gerillák", "gibbonok", "goblinok", "godzillák", "gólemek", "gorillák",
         "gyilkos darazsak",
         "hackerek", "halottak", "hangyák", "harci robotok", "hobbitok", "hóhérok", "hollók", "hullák",
         "jetik",
-        "káoszmajmok", "kardhalak", "kertitörpék", "kígyók", "kísértetek", "kis szürkék", "klónok", "krokodilok", "kultisták", "kutyák", "küklopszok",
+        "káoszmajmok", "kardhalak", "kertitörpék", "kígyók", "kísértetek", "kis szürkék", "klónok", "kőgólemek", "krokodilok", "kultisták", "kutyák", "küklopszok",
         "láphullák", "lázadók", "lidércek",
-        "macskák", "madarak", "majmok", "mamutok", "manók", "markolábok", "marslakók", "medvék", "molyemberek", "múmiák", "mutánsok", "mutáns zombik",
+        "macskák", "madarak", "mágusok", "majmok", "mamutok", "manók", "markolábok", "marslakók", "medvék", "molyemberek", "múmiák", "mutánsok", "mutáns zombik",
         "nazgulok", "nekromanták", "nepperek", "nindzsák", "nünükék",
         "nyehőcék", "nyulak",
         "ogrék", "okkultisták", "orángutánok", "ordasok", "óriások", "óriáspókok", "orkok", "oroszlánok", "ősemberek",
@@ -61,7 +61,7 @@ const Szornyek =
         "szakemberek", "szamurájok", "szellemek", "szeparatisták", "szeszkazánok", "szőrállatok", "szörnyetegek", "szőrös büfögők",
         "terminátorok", "terroristák", "tigrisek", "toportyánférgek", "törpék", "traktorosok", "trollok",
         "ufonauták", "útonállók",
-        "vámpírok", "vérbarbárok", "vérbírók", "vérfarkasok", "vérmedvék", "verőemberek", "villalakók", "vöröshangyák",
+        "vámpírok", "varázslók", "vérbarbárok", "vérbírók", "vérfarkasok", "vérmedvék", "verőemberek", "villalakók", "vöröshangyák",
         "zombik", "zugalakok"
     ];
 
@@ -200,7 +200,7 @@ const Jelzok =
         "szakállas", "szandálos", "szemüveges", "szkafanderes", "szörnyű", "szőrös", "szürke",
         "tahó", "tébolyult", "temetői", "tomboló", "tömegpusztító", "tornacipős", "torz", "tudatmanipulált", "tündérharmatos", "tündibündi",
         "üntyümpüntyüm", "üvöltő",
-        "vegyi", "végzetes", "vén", "vénséges", "véres", "vérgonyasztó", "vérivó", "vérszívó", "veszett",
+        "vasorrú", "vegyi", "végzetes", "vén", "vénséges", "véres", "vérgonyasztó", "vérivó", "vérszívó", "veszett",
         "zulu"
     ];
 
