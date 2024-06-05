@@ -185,6 +185,18 @@ include_once("page.php");
                     <a href="demo_korsagok.php">Egy új kórság generálása...</a>
                 </p>
             </div>
+
+            <div class="demo">
+                <h3>Esti mese</h3>
+
+                <p>
+                    Egy madlib program, melynek segítségével esti meséket lehet generálni (Feró után szabadon).
+                </p>
+
+                <p>
+                    <a href="demo_estimese.php">Egy új mese generálása...</a>
+                </p>
+            </div>
         </div>
         
         <?php PageFooter(); ?>
