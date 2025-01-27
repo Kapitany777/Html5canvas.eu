@@ -37,7 +37,7 @@ function PageFooter()
 {
     print("<div id=\"footer\">\n");
     print("    <div id=\"copyright\">\n");
-    print("        <a href=\"https://braincluster.eu/\" target=\"_blank\">&copy; 2001-2024 Brain Cluster Inc.</a>\n");
+    print("        <a href=\"https://braincluster.eu/\" target=\"_blank\">&copy; 2001-2025 Brain Cluster Inc.</a>\n");
     print("    </div>\n");
 
     print("    <div id=\"impresszum\">\n");
