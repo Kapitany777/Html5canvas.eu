@@ -1,26 +1,27 @@
 const keresztNevek =
     [
-        "Abraham", "Adolf", "Adrian", "Ahmed", "Albert", "Alekszej", "Ali", "Anatolij", "Anton", "Arnold", "Arthur",
-        "Barney", "Bernard", "Bill", "Boris", "Brian", "Bruce", "Bruno",
-        "Cal", "Charles", "Chuck", "Clancy", "Clint", "Conan",
-        "Darth", "David", "Dimitrij", "Don", "Donald",
-        "Eduard", "Eli",
+        "Abraham", "Adolf", "Adrian", "Ahmed", "Albert", "Alekszej", "Alex", "Ali", "Anatolij", "Anton", "Arnold", "Arthur",
+        "Barney", "Ben", "Bernard", "Bill", "Bob", "Boris", "Brian", "Bruce", "Bruno",
+        "Cal", "Carl", "Charles", "Chuck", "Clancy", "Clint", "Conan",
+        "Daniel", "Darth", "David", "Dennis", "Dick", "Dimitrij", "Don", "Donald", "Douglas",
+        "Ed", "Eduard", "Eli", "Eric",
         "Fox",
-        "Gordon", "Gregory",
+        "Gary", "Gene", "Gordon", "Gregory",
         "Han", "Hans", "Harry", "Heinrich", "Henri", "Hercule", "Hermann",
-        "Igor", "Isaac",
-        "Jack", "Jackson", "James", "Jason", "Jim", "Joe", "Joel", "John", "Joseph", "Jules", "Jurij",
-        "Kabir",
-        "Lawrence", "Leonyid", "Leslie", "Lucas", "Luke",
-        "Mark", "Martin", "Maxim", "Mehmet", "Mesut", "Michael", "Mihail",
-        "Neil", "Nick", "Nigel", "Nikola",
+        "Igor", "Isaac", "Ivan",
+        "Jack", "Jackson", "James", "Jason", "Jeffrey", "Jerry", "Jim", "Joe", "Joel", "John", "Jonathan", "Joseph",
+        "Jules", "Jurij",
+        "Kabir", "Kelly", "Ken", "Kevin", "Kurt",
+        "Lawrence", "Leo", "Leonard", "Leonyid", "Leslie", "Lucas", "Luke",
+        "Mark", "Martin", "Maxim", "Mehmet", "Mesut", "Michael", "Mihail", "Mike",
+        "Ned", "Neil", "Nick", "Nigel", "Nikola",
         "Nyikita",
         "Oleg", "Otto",
         "Paul", "Peter",
-        "Ragnar", "Richard", "Robert", "Robin", "Ron",
-        "Sherlock", "Sidhe", "Steve", "Stuart", "Sylvester",
+        "Ragnar", "Rich", "Richard", "Robert", "Robin", "Ron", "Ronald",
+        "Scott", "Sherlock", "Sidhe", "Stephen", "Steve", "Stuart", "Sylvester",
         "Szergej",
-        "Timur", "Tobias", "Tom", "Tony", "Travis", "Tse", "Tyler",
+        "Timur", "Tobias", "Todd", "Tom", "Tony", "Travis", "Tse", "Tyler",
         "Vaszilij", "Vlagyimir", "Victor", "Vincent",
         "Wallace", "Walter", "Wayne", "Wernher", "Wilhelm", "William", "Wyatt",
         "Yegor"
@@ -28,11 +29,12 @@ const keresztNevek =
 
 const vezetekNevek =
     [
-        "Armstrong", "Ash",
-        "Barnes", "Bear", "Bedi", "Bennet", "Biden", "Biggs", "Bishop", "Black", "Bond", "Borlini", "Braun", "Brown", "Bruce",
-        "Calhoun", "Campbell", "Carmack", "Conrad", "Croft", "Cross", "Crow",
-        "Daye", "Donovan", "Douglas", "Dubois", "Duke", "Dupont",
-        "Earp", "Eastwood", "Einstein", "Elliot",
+        "Adams", "Armstrong", "Ash",
+        "Barnes", "Bear", "Beard", "Bedi", "Bennet", "Biden", "Biggs", "Bishop", "Black", "Bond", "Borlini", "Braun", "Brown",
+        "Bush", "Bruce",
+        "Calhoun", "Campbell", "Carmack", "Carter", "Conrad", "Croft", "Cross", "Crow",
+        "Davis", "Daye", "Donovan", "Douglas", "Dubois", "Duke", "Dupont",
+        "Earp", "Eastwood", "Edwards", "Einstein", "Elliot",
         "Ferguson", "Forbes", "Frankenstein", "Fraser", "Freeman", "Frost",
         "Gates", "Gilbert", "Glacius", "Gourdo", "Graham", "Grant", "Green", "Grün", "Grünwald",
         "Hamill", "Hamilton", "Hastings", "Hawkins", "Hicks", "Hindenburg", "Holmes", "Hood", "Hudson", "Hufnagel",
@@ -49,7 +51,7 @@ const vezetekNevek =
         "Szabo",
         "Taylor", "Tesla", "Töpfer", "Trump", "Turan", "Tyrone",
         "Vader", "Vasquez", "Vance",
-        "Watson", "Weiss", "White", "Wolf"
+        "Walker", "Watson", "Watts", "Weiss", "White", "Wolf"
     ];
 
 const oregNevek =
