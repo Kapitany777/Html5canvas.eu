@@ -300,7 +300,7 @@ const FoglalkozasPrefixek =
         "elméleti ", "elnyomott ",
         "fedett ", "fő",
         "helyettes ", "hivatásos ",
-        "inkluzív", "ipari ",
+        "inkluzív ", "ipari ",
         "junior ",
         "képesített ", "kiégett ", "kiemelt ", "kísérleti ", "környezetvédelmi ", "kreatív ", "különleges ", "külsős ", "kutató ",
         "logisztikai ",
