@@ -25,15 +25,25 @@ const Fonevek =
         "zombi", "zóna"
     ];
 
-const EjszakaJelzok =
-    [
-        "csillagtalan",
-        "fagyos",
-        "hideg", "holdfényes",
-        "nyomasztó",
-        "sötét", "szeles",
-        "viharos"
-    ];
+const EjszakaJelzok = [
+        "álmatlan", "árnyakkal teli", "átkozott",
+        "baljós", "bársonyos", "borzongató",
+        "csendes", "csillagtalan", "csillagfényes",
+        "dermesztő",
+        "eseménytelen", "esős",
+        "fagyos", "félelmetes", "fülledt",
+        "hátborzongató", "hideg", "holdfényes", "holdtalan",
+        "hosszú",
+        "jeges",
+        "kísérteties", "koromsötét",
+        "lidérces",
+        "nyomasztó", "nyugtalanítóan csendes",
+        "párás", "pokoli",
+        "sötét", "szeles", "síri csendbe burkolózó",
+        "természetellenesen sötét", "túlvilági",
+        "végzetes", "viharos", "villámlásokkal tarkított",
+        "zivataros"
+];
 
 const Szornyek =
     [
@@ -50,7 +60,7 @@ const Szornyek =
         "hackerek", "halottak", "hangyák", "harci robotok", "hobbitok", "hóhérok", "hollók", "hullák",
         "idegen lények",
         "jetik",
-        "káoszmajmok", "kardhalak", "kertitörpék", "kígyók", "kísértetek", "kis szürkék", "klónok", "kőgólemek", "krokodilok", "kultisták", "kutyák", "küklopszok",
+        "káoszmajmok", "kardhalak", "kertitörpék", "kígyók", "kísértetek", "kiscsirkék", "kiskacsák", "kis szürkék", "klónok", "kőgólemek", "krokodilok", "kultisták", "kutyák", "küklopszok",
         "láphullák", "lázadók", "lidércek",
         "macskák", "madarak", "mágusok", "majmok", "mamutok", "manók", "markolábok", "marslakók", "medvék", "molyemberek", "múmiák", "mutánsok", "mutáns zombik",
         "nazgulok", "nekromanták", "nepperek", "nindzsák", "nünükék", "nutriák",
@@ -130,16 +140,32 @@ const Helyekben =
 
 const RejtekhelyJelzok =
     [
-        "düledező",
-        "elátkozott", "elfeledett", "elhagyatott",
-        "gazos",
-        "hideg",
-        "isten háta mögötti",
-        "kísértetjárta", "közeli",
-        "ősi", "összedőlt",
-        "romos",
-        "távoli",
-        "világtól elzárt", "világvégi"
+        "árnyékba vesző", "átokverte",
+        "baljós", "bozótos", "boszorkánylakta",
+        "civilizációtól távoli",
+        "démonjárta", "dermesztő", "dermesztően néma", "dérlepte", "düledező",
+        "elátkozott", "eldugott", "elfeledett", "elfelejtett", "elhagyatott", "elhanyagolt", "elnéptelenedett", "elvadult",
+        "enyészet szagú", "enyészetnek indult", "esőverte", "évszázados", "évezredes",
+        "fagyos", "fenyegető", "félreeső",
+        "gazdátlan", "gazos", "gazverte",
+        "hátborzongató", "határvidéki", "hideg", "homályba burkolózó",
+        "időtlen", "idő által elfeledett", "időn kívüli", "ingoványos", "isten háta mögötti",
+        "járhatatlan",
+        "kietlen", "kihalt", "kísérteties", "kísértetjárta", "ködbe vesző", "ködlepte", "kopár", "közeli",
+        "lakatlan", "lidérces",
+        "madár sem járta", "málladozó", "messzi", "megátkozott", "megközelíthetetlen", "mocsaras",
+        "napfénytelen",
+        "nyirkos", "nyomasztó", "nyugtalanító",
+        "ókori", "ódon", "omladozó",
+        "örök homályba burkolózó", "ősi", "ősi titkokat őrző", "őskori", "összedőlt",
+        "pusztulásra kárhoztatott", "pusztuló",
+        "reménytelen", "rejtélyes", "romba dőlt", "romos",
+        "sáros", "sivár", "sötét titkokat rejtő",
+        "szélfútta", "széljárta", "szellemjárta",
+        "távoli", "térképen sem jelzett", "túlvilági",
+        "úttalan",
+        "világvégi", "világtól elfeledett", "világtól elzárt", "vadregényes",
+        "zúzmarás"
     ];
 
 const Rejtekhelyekben =
@@ -174,7 +200,11 @@ const Rejtekhelyekben =
 const RejtozesModja =
     [
         "bujdokol", "bujdosik", "bujkál",
+        "húzódik fedezékbe",
+        "kuporog",
         "lapít", "lapul",
+        "húzza meg magát", "húzódik meg", "lapul meg",
+        "ólálkodik",
         "rejtőzik", "rejtőzködik",
         "sunnyog"
     ];
@@ -191,14 +221,14 @@ const Jelzok =
         "gázálarcos", "génmanipulált", "génmódosított", "gépesített", "gigantikus", "gonosz", "gumicsizmás",
         "gyanús", "gyüszlött",
         "habzó szájú", "halott", "hatalmas", "hegyi", "hideg", "hónaljmankós",
-        "idegbeteg", "idegen", "indián", "ipari", "ismeretlen", "ittas",
+        "idegbeteg", "idegen", "ideges", "indián", "ipari", "ismeretlen", "ittas",
         "kancsal", "kárhozott", "kidülledt szemű", "kitaszított", "klónozott", "koszlott", "ködös",
         "láncdohányos", "láncfűrészes", "lápi", "láthatatlan", "lázadó", "lebegő", "lidérces", "lopakodó",
         "mandzsúriai", "más dimenzióból érkezett", "megnevezhetetlen", "mélységi", "mélytengeri", "mélyűri", "mocsári", "molekuláris", "mutáns",
         "nanoruhás", "napszemüveges", "neandervölgyi", "névtelen", "nukleáris", "nyálkás",
         "ocsmány", "osonó", "őrjöngő", "őrült", "ősi",
         "páncélozott", "pöhös", "pszichopata", "pusztító",
-        "radioaktív", "rángatózó", "rémséges", "részeges", "rettenetes", "rituális", "rothadó",
+        "radioaktív", "rángatózó", "rémséges", "részeges", "rettenetes", "rituális", "rothadó", "rút",
         "sánta", "síri", "smucig", "sóher", "sötét", "strandpapucsos", "sudribunkó", "sugárfertőzött", "sugárzó", "sunnyogó",
         "szakállas", "szandálos", "szemüveges", "szkafanderes", "szörnyű", "szőrös", "szürke",
         "tahó", "tébolyult", "temetői", "tomboló", "tömegpusztító", "tornacipős", "torz", "tudatmanipulált", "tündérharmatos", "tündibündi",
@@ -257,7 +287,7 @@ const Foglalkozasok =
         "főmérnök", "főpap", "fotográfus", "futballsztár", "füvesember",
         "gazda", "generális", "gengszter", "gépész", "géplakatos", "géppuskás", "gerilla", "gladiátor", "gombaszakellenőr", "gombaszakértő", "gondnok", "gránátos", "gumitalpú",
         "gyakornok", "gyalogmunkás", "gyalogos", "gyárigazgató", "gyepmester", "gyógytornász",
-        "hacker", "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegedűs", "hegesztő", "hegyirabló", "hóhér", "hurrikánkineziológus", "hűtőgépész",
+        "hacker", "hajóskapitány", "halász", "harangozó", "harckocsizó", "hegedűs", "hegesztő", "hegyirabló", "hóhér", "hoplita", "hurrikánkineziológus", "hűtőgépész",
         "idegenvezető", "idegsebész", "idomár", "informatikus", "inkvizítor", "irattáros", "író",
         "jampec", "javasember", "jogász", "jogtanácsos", "juhász",
         "kalauz", "KAM", "kantelep-vezető", "kántor", "karbantartó", "karosszérialakatos", "kárpitos", "kazánfűtő", "kazánkovács", "kém", "kéményseprő", "kertész",
@@ -333,18 +363,28 @@ const FoglalkozasPostfixek =
         "varázsló"
     ];
 
-const MilyenTelepulesek =
-    [
-        "álmos", "átokverte",
-        "elátkozott", "elfeledett", "elhagyatott", "ezer éves",
+const MilyenTelepulesek = [
+        "álmos", "árvíz sújtotta", "átok sújtotta", "átokverte",
+        "baljós", "békés", "bozótos",
+        "csendes",
+        "dombvidéki",
+        "elátkozott", "eldugott", "elfeledett", "elhagyatott", "elnéptelenedett", "erdőszéli", "ezer éves", "évszázados", "évezredes",
+        "félreeső", "falusias", "forgalmas",
         "gyéren lakott",
-        "isten háta mögötti",
-        "kietlen", "kihalt", "kis", "ködös",
-        "mocsaras",
-        "ősi",
-        "sivatagos",
-        "szeles", "sziklás", "szmogos",
-        "vidéki"
+        "hátborzongató", "hegyvidéki", "hideg", "hófödte",
+        "isten háta mögötti", "istenverte",
+        "kietlen", "kihalt", "kísértetjárta", "kis", "ködbe burkolózó", "ködös", "középkori", "középkorias", "közműhiányos", "kopár",
+        "lápvidéki", "lepukkant", "lidérces",
+        "mocsaras", "mocsárszéli",
+        "napégette", "nyomasztó", "nyüzsgő",
+        "ódon", "ókori", "ősi", "ősidők óta lakott",
+        "patinás", "porlepte", "poros",
+        "reménytelen", "romos", "rozoga",
+        "sivatagos", "sötét", "szeles", "szellemjárta", "sziklás", "szmogos",
+        "tengerparti", "titokzatos", "történelmi",
+        "unalmas",
+        "vadregényes", "vidéki", "világvégi", "végzetes",
+        "zord"
     ];
 
 const Telepulesek =
@@ -358,7 +398,7 @@ const Telepulesek =
         "jégmezőn",
         "kantelepen", "kikötőben", "kisvárosban", "koszfészekben", "kősivatagban", "községben",
         "lakóparkban", "lakótelepen", "lápvidéken",
-        "majorban", "menedékházban", "mocsárvidéken",
+        "majorban", "menedékházban", "mezővárosban", "mocsárvidéken",
         "nagyközségben", "nagyvárosban",
         "pulykatelepen", "pusztaságban", "pusztában",
         "radarállomáson", "rakétabázison",
@@ -534,13 +574,22 @@ const Fegyverekkel =
         "WC-pumpával", "Winchesterrel"
     ];
 
-const CsataJelzok =
-    [
-        "brutális",
-        "elemi erejű",
-        "hőseposzba illő",
-        "kegyetlen",
-        "véres"
+const CsataJelzok = [
+        "apokaliptikus", "brutális", "brutálisan kegyetlen",
+        "démoni",
+        "elkeseredett", "elemi erejű", "emberfeletti", "embertelen", "epikus", "eszement",
+        "földöntúli",
+        "gigászi", "grandiózus",
+        "hátborzongató", "heroikus", "hőseposzba illő",
+        "irgalmatlan", "iszonyatos",
+        "kegyetlen", "kíméletlen", "könyörtelen", "kozmikus",
+        "legendás", "lidérces",
+        "minden képzeletet felülmúló", "mitikus", "monumentális",
+        "pokoli", "pusztító",
+        "rémisztő", "rettenetes",
+        "történelmi jelentőségű", "történelmi léptékű", "titáni", "túlvilági",
+        "véres", "vérfürdőbe torkolló", "vérgőzös",
+        "őrületes", "öldöklő"
     ];
 
 const Megsemmisulesek =
